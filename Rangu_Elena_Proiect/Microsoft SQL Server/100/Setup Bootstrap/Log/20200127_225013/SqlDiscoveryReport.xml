@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<ArrayOfDiscoveryInformation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DiscoveryInformation>
+    <Product>Sql Server 2008</Product>
+    <Instance />
+    <InstanceID />
+    <Feature>Management Tools - Basic</Feature>
+    <Language>1033</Language>
+    <Edition>Express Edition</Edition>
+    <Version>10.0.1600.22</Version>
+    <Clustered>No</Clustered>
+  </DiscoveryInformation>
+</ArrayOfDiscoveryInformation>

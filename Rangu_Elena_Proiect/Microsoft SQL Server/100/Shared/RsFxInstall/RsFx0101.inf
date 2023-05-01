@@ -1,0 +1,74 @@
+;---[ RsFxDrv.inf ]------------------------------------------------------------
+;
+; RsFx Service (UNC Provider and Network Provider)
+;
+; Copyright (c) Microsoft Corporation.  All rights reserved.
+;
+
+[Version]
+Signature   = "$Windows NT$"
+Provider    = %Msft%
+DriverPackageType = KernelModule 
+DriverVer=10/01/2002,01.01.0.0
+
+[RsFxInstall.Services]
+AddService = RsFx0101, 0, RsFxDrv.AddService, RsFxDrv.EventLog, System
+
+[RsFxUninstall.Services]
+DelService = RsFx0101,0x00000204
+DelReg = RsFxDrv.ServiceParams
+
+[RsFxDrv.AddService]
+DisplayName = %RsFxDrv.DisplayName%
+Description = %RsFxDrv.Description%
+ServiceBinary = %12%\RsFx0101.sys        ; %windir%\system32\drivers\RsFx0101.sys
+ServiceType = 0x2                       ; SERVICE_FILE_SYSTEM_DRIVER 
+StartType = 0x4                         ; SERVICE_DISABLED
+ErrorControl = 0x1
+Dependencies = %RsFxDrv.Dependencies%
+LoadOrderGroup = %RsFxDrv.LoadOrderGroup%
+AddReg = RsFxDrv.ServiceParams
+
+[RsFxDrv.ServiceParams]
+HKR, NetworkProvider, Name, 0, %NetProviderName%
+HKR, NetworkProvider, DeviceName, 0, "\Device\RsFx0101"
+HKR, Parameters, TraceFlag, 0x10003, 3
+HKR, Parameters, TraceBuffers, 0x10003, 5
+HKR,%RegInstancesSubkeyName%,%RegDefaultInstanceValueName%,0x00000000,%DefaultInstance%
+HKR,%RegInstancesSubkeyName%"\"%Instance1.Name%,%RegAltitudeValueName%,0x00000000,%Instance1.Altitude%
+HKR,%RegInstancesSubkeyName%"\"%Instance1.Name%,%RegFlagsValueName%,0x00010001,%Instance1.Flags%
+; Default SD is "D:(A;;0x1f01ff;;;SY)(A;;0x1f01ff;;;BA)"
+HKR,DeviceSecurity,Security,0x00000001,01,00,14,80,64,00,00,00,70,00,00,00,14,00,00,00,30,00,00,00,02,00,1c,00,01,00,00,00,02,80,14,00,ff,01,1f,00,01,01,00,00,00,00,00,01,00,00,00,00,02,00,34,00,02,00,00,00,00,00,14,00,ff,01,1f,00,01,01,00,00,00,00,00,05,12,00,00,00,00,00,18,00,ff,01,1f,00,01,02,00,00,00,00,00,05,20,00,00,00,20,02,00,00,01,01,00,00,00,00,00,05,12,00,00,00,01,01,00,00,00,00,00,05,12,00,00,00  
+HKR,InstancesShares,,,
+; Default SD is "O:BAG:BAD:(A;;0x120fff;;;BA)(A;;0x120fff;;;LS)(A;;0x120fff;;;NS)(A;;0x120fff;;;SY)(A;;0x800;;;BU)"
+HKLM, SYSTEM\CurrentControlSet\Control\WMI\Security, %ProviderGuid%, 0x00000001,01,00,04,80,14,00,00,00,24,00,00,00,00,00,00,00,34,00,00,00,01,02,00,00,00,00,00,05,20,00,00,00,20,02,00,00,01,02,00,00,00,00,00,05,20,00,00,00,20,02,00,00,02,00,74,00,05,00,00,00,00,00,18,00,ff,0f,12,00,01,02,00,00,00,00,00,05,20,00,00,00,20,02,00,00,00,00,14,00,ff,0f,12,00,01,01,00,00,00,00,00,05,13,00,00,00,00,00,14,00,ff,0f,12,00,01,01,00,00,00,00,00,05,14,00,00,00,00,00,14,00,ff,0f,12,00,01,01,00,00,00,00,00,05,12,00,00,00,00,00,18,00,00,08,00,00,01,02,00,00,00,00,00,05,20,00,00,00,21,02,00,00
+; Default SD is "O:BAG:BAD:(A;;0x120fff;;;BA)(A;;0x120fff;;;LS)(A;;0x120fff;;;NS)(A;;0x120fff;;;SY)(A;;0x800;;;BU)"
+HKLM, SYSTEM\CurrentControlSet\Control\WMI\Security, %SessionGuid%, 0x00000001,01,00,04,80,14,00,00,00,24,00,00,00,00,00,00,00,34,00,00,00,01,02,00,00,00,00,00,05,20,00,00,00,20,02,00,00,01,02,00,00,00,00,00,05,20,00,00,00,20,02,00,00,02,00,74,00,05,00,00,00,00,00,18,00,ff,0f,12,00,01,02,00,00,00,00,00,05,20,00,00,00,20,02,00,00,00,00,14,00,ff,0f,12,00,01,01,00,00,00,00,00,05,13,00,00,00,00,00,14,00,ff,0f,12,00,01,01,00,00,00,00,00,05,14,00,00,00,00,00,14,00,ff,0f,12,00,01,01,00,00,00,00,00,05,12,00,00,00,00,00,18,00,00,08,00,00,01,02,00,00,00,00,00,05,20,00,00,00,21,02,00,00
+
+[RsFxDrv.EventLog]
+AddReg = RsFxDrv.EventLog.AddReg
+
+[RsFxDrv.EventLog.AddReg]
+HKR,,EventMessageFile,0x00020000,"%%SystemRoot%%\System32\IoLogMsg.dll;%%SystemRoot%%\System32\drivers\rsfx0101.sys"
+HKR,,TypesSupported,0x00010001,7
+
+[Strings]
+Msft = "Microsoft Corporation"
+RsFx.Description = "RsFx0101"
+RsFx.Tip = "RsFx 0101 driver allows Win32 user-mode applications/services to own and manage Win32 namespaces of the UNC format."
+RsFxDrv.DisplayName = "RsFx0101 Driver"
+RsFxDrv.Description = "RsFx 0101 driver allows Win32 user-mode applications/services to own and manage Win32 namespaces of the UNC format. If this service is stopped, these functions will not be available. If this service is disabled, any services that explicitly depend on it will fail to start."
+RsFxDrv.Dependencies = "FltMgr"
+RsFxDrv.LoadOrderGroup = "FsFilter Bottom"
+NetProviderName = "RsFx0101 Client Network"
+RegInstancesSubkeyName = "Instances"
+RegDefaultInstanceValueName = "DefaultInstance"
+RegAltitudeValueName = "Altitude"
+RegFlagsValueName = "Flags"
+DefaultInstance = "RsFx0101 MiniFilter Instance"
+Instance1.Name  = "RsFx0101 MiniFilter Instance"
+Instance1.Altitude = "41001.01"
+Instance1.Flags = 0x0
+ProviderGuid = f878f7e5-0101-43f7-ae74-b6bf8c964031
+SessionGuid = a654550a-0101-476f-bded-a3c55d321a90
+

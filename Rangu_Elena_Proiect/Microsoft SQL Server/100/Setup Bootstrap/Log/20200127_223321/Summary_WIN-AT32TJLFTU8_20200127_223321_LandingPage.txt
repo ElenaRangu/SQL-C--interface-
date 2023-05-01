@@ -1,0 +1,50 @@
+Overall summary:
+  Final result:                  Passed
+  Exit code (Decimal):           0
+  Exit message:                  Passed
+  Start time:                    2020-01-27 22:33:21
+  End time:                      2020-01-27 22:36:27
+  Requested action:              LandingPage
+
+Machine Properties:
+  Machine name:                  WIN-AT32TJLFTU8
+  Machine processor count:       1
+  OS version:                    Windows Vista
+  OS service pack:               Service Pack 1
+  OS region:                     United States
+  OS language:                   English (United States)
+  OS architecture:               x64
+  Process architecture:          64 Bit
+  OS clustered:                  No
+
+Package properties:
+  Description:                   SQL Server Database Services 2008
+  SQLProductFamilyCode:          {628F8F38-600E-493D-9946-F4178F20A8A9}
+  ProductName:                   SQL2008
+  Type:                          RTM
+  Version:                       10
+  SPLevel:                       0
+  Installation location:         c:\cb2aa83b49d73d3aa531b278\x64\setup\
+  Installation edition:          EXPRESS_ADVANCED
+
+User Input Settings:
+  ACTION:                        LandingPage
+  CONFIGURATIONFILE:             
+  HELP:                          False
+  INDICATEPROGRESS:              False
+  MEDIASOURCE:                   c:\cb2aa83b49d73d3aa531b278\
+  QUIET:                         False
+  QUIETSIMPLE:                   False
+  X86:                           False
+
+  Configuration file:            C:\Program Files\Microsoft SQL Server\100\Setup Bootstrap\Log\20200127_223321\ConfigurationFile.ini
+
+Detailed results:
+
+Rules with failures:
+
+Global rules:
+
+There are no scenario-specific rules.
+
+Rules report file:               The rule result report file is not available.

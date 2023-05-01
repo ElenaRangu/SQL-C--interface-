@@ -1,0 +1,72 @@
+C:\Users\Andy\Desktop\Platforma6\Platforma6\Platforma6\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Andy\Desktop\Platforma6\Platforma6\Platforma6\obj\Debug\Platforma6.Form1.resources
+C:\Users\Andy\Desktop\Platforma6\Platforma6\Platforma6\obj\Debug\Platforma6.FormMain.resources
+C:\Users\Andy\Desktop\Platforma6\Platforma6\Platforma6\obj\Debug\Platforma6.Properties.Resources.resources
+C:\Users\Andy\Desktop\Platforma6\Platforma6\Platforma6\obj\Debug\Platforma6.csproj.GenerateResource.Cache
+C:\Users\Andy\Desktop\Platforma6\Platforma6\Platforma6\bin\Debug\Platforma6.exe
+C:\Users\Andy\Desktop\Platforma6\Platforma6\Platforma6\bin\Debug\Platforma6.pdb
+C:\Users\Andy\Desktop\Platforma6\Platforma6\Platforma6\obj\Debug\Platforma6.Form2.resources
+C:\Users\Andy\Desktop\Platforma6\Platforma6\Platforma6\obj\Debug\Platforma6.exe
+C:\Users\Andy\Desktop\Platforma6\Platforma6\Platforma6\obj\Debug\Platforma6.pdb
+C:\Users\Andy\Desktop\Platforma6\Platforma6\Platforma6\obj\Debug\Platforma6.Form3.resources
+C:\Users\Andy\Desktop\Platforma6\Platforma6\Platforma6\obj\Debug\Platforma6.Form4.resources
+C:\Users\Andy\Desktop\Platforma6_2\Platforma6\Platforma6\obj\Debug\Platforma6.exe
+C:\Users\Andy\Desktop\Platforma6_2\Platforma6\Platforma6\obj\Debug\Platforma6.pdb
+C:\Users\Andy\Desktop\Platforma6_2\Platforma6\Platforma6\bin\Debug\Platforma6.exe
+C:\Users\Andy\Desktop\Platforma6_2\Platforma6\Platforma6\bin\Debug\Platforma6.pdb
+C:\Users\Andy\Desktop\Platforma6_2\Platforma6\Platforma6\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Andy\Desktop\Platforma6_2\Platforma6\Platforma6\obj\Debug\Platforma6.Form1.resources
+C:\Users\Andy\Desktop\Platforma6_2\Platforma6\Platforma6\obj\Debug\Platforma6.Form2.resources
+C:\Users\Andy\Desktop\Platforma6_2\Platforma6\Platforma6\obj\Debug\Platforma6.Form3.resources
+C:\Users\Andy\Desktop\Platforma6_2\Platforma6\Platforma6\obj\Debug\Platforma6.Form4.resources
+C:\Users\Andy\Desktop\Platforma6_2\Platforma6\Platforma6\obj\Debug\Platforma6.FormMain.resources
+C:\Users\Andy\Desktop\Platforma6_2\Platforma6\Platforma6\obj\Debug\Platforma6.Properties.Resources.resources
+C:\Users\Andy\Desktop\Platforma6_2\Platforma6\Platforma6\obj\Debug\Platforma6.csproj.GenerateResource.Cache
+C:\Users\Noi\Desktop\proiectt\Platforma11_Project\Platforma6\bin\Debug\Platforma6.exe
+C:\Users\Noi\Desktop\proiectt\Platforma11_Project\Platforma6\bin\Debug\Platforma6.pdb
+C:\Users\Noi\Desktop\proiectt\Platforma11_Project\Platforma6\obj\Debug\Platforma6.csprojAssemblyReference.cache
+C:\Users\Noi\Desktop\proiectt\Platforma11_Project\Platforma6\obj\Debug\Platforma6.Form1.resources
+C:\Users\Noi\Desktop\proiectt\Platforma11_Project\Platforma6\obj\Debug\Platforma6.Form2.resources
+C:\Users\Noi\Desktop\proiectt\Platforma11_Project\Platforma6\obj\Debug\Platforma6.Form3.resources
+C:\Users\Noi\Desktop\proiectt\Platforma11_Project\Platforma6\obj\Debug\Platforma6.Form4.resources
+C:\Users\Noi\Desktop\proiectt\Platforma11_Project\Platforma6\obj\Debug\Platforma6.FormMain.resources
+C:\Users\Noi\Desktop\proiectt\Platforma11_Project\Platforma6\obj\Debug\Platforma6.Properties.Resources.resources
+C:\Users\Noi\Desktop\proiectt\Platforma11_Project\Platforma6\obj\Debug\Platforma6.csproj.GenerateResource.cache
+C:\Users\Noi\Desktop\proiectt\Platforma11_Project\Platforma6\obj\Debug\Platforma6.exe
+C:\Users\Noi\Desktop\proiectt\Platforma11_Project\Platforma6\obj\Debug\Platforma6.pdb
+C:\Users\Noi\Desktop\Platforma11_Project\Platforma6\bin\Debug\Platforma6.exe
+C:\Users\Noi\Desktop\Platforma11_Project\Platforma6\bin\Debug\Platforma6.pdb
+C:\Users\Noi\Desktop\Platforma11_Project\Platforma6\obj\Debug\Platforma6.csprojAssemblyReference.cache
+C:\Users\Noi\Desktop\Platforma11_Project\Platforma6\obj\Debug\Platforma6.Form1.resources
+C:\Users\Noi\Desktop\Platforma11_Project\Platforma6\obj\Debug\Platforma6.Form2.resources
+C:\Users\Noi\Desktop\Platforma11_Project\Platforma6\obj\Debug\Platforma6.Form3.resources
+C:\Users\Noi\Desktop\Platforma11_Project\Platforma6\obj\Debug\Platforma6.Form4.resources
+C:\Users\Noi\Desktop\Platforma11_Project\Platforma6\obj\Debug\Platforma6.FormMain.resources
+C:\Users\Noi\Desktop\Platforma11_Project\Platforma6\obj\Debug\Platforma6.Properties.Resources.resources
+C:\Users\Noi\Desktop\Platforma11_Project\Platforma6\obj\Debug\Platforma6.csproj.GenerateResource.cache
+C:\Users\Noi\Desktop\Platforma11_Project\Platforma6\obj\Debug\Platforma6.exe
+C:\Users\Noi\Desktop\Platforma11_Project\Platforma6\obj\Debug\Platforma6.pdb
+C:\Users\Noi\Desktop\New folder (3)\Proiect_IA2_RangElena\Platforma11_Project\Platforma6\bin\Debug\Platforma6.exe
+C:\Users\Noi\Desktop\New folder (3)\Proiect_IA2_RangElena\Platforma11_Project\Platforma6\bin\Debug\Platforma6.pdb
+C:\Users\Noi\Desktop\New folder (3)\Proiect_IA2_RangElena\Platforma11_Project\Platforma6\obj\Debug\Platforma6.csprojAssemblyReference.cache
+C:\Users\Noi\Desktop\New folder (3)\Proiect_IA2_RangElena\Platforma11_Project\Platforma6\obj\Debug\Platforma6.Form1.resources
+C:\Users\Noi\Desktop\New folder (3)\Proiect_IA2_RangElena\Platforma11_Project\Platforma6\obj\Debug\Platforma6.Form2.resources
+C:\Users\Noi\Desktop\New folder (3)\Proiect_IA2_RangElena\Platforma11_Project\Platforma6\obj\Debug\Platforma6.Form3.resources
+C:\Users\Noi\Desktop\New folder (3)\Proiect_IA2_RangElena\Platforma11_Project\Platforma6\obj\Debug\Platforma6.Form4.resources
+C:\Users\Noi\Desktop\New folder (3)\Proiect_IA2_RangElena\Platforma11_Project\Platforma6\obj\Debug\Platforma6.FormMain.resources
+C:\Users\Noi\Desktop\New folder (3)\Proiect_IA2_RangElena\Platforma11_Project\Platforma6\obj\Debug\Platforma6.Properties.Resources.resources
+C:\Users\Noi\Desktop\New folder (3)\Proiect_IA2_RangElena\Platforma11_Project\Platforma6\obj\Debug\Platforma6.csproj.GenerateResource.cache
+C:\Users\Noi\Desktop\New folder (3)\Proiect_IA2_RangElena\Platforma11_Project\Platforma6\obj\Debug\Platforma6.exe
+C:\Users\Noi\Desktop\New folder (3)\Proiect_IA2_RangElena\Platforma11_Project\Platforma6\obj\Debug\Platforma6.pdb
+C:\Users\Noi\Desktop\New folder (3)\Rangu_Elena_Proiect\Platforma11_Project\Platforma6\obj\Debug\Platforma6.csprojAssemblyReference.cache
+C:\Users\Noi\Desktop\New folder (3)\Rangu_Elena_Proiect\Platforma11_Project\Platforma6\obj\Debug\Platforma6.Form1.resources
+C:\Users\Noi\Desktop\New folder (3)\Rangu_Elena_Proiect\Platforma11_Project\Platforma6\obj\Debug\Platforma6.Form2.resources
+C:\Users\Noi\Desktop\New folder (3)\Rangu_Elena_Proiect\Platforma11_Project\Platforma6\obj\Debug\Platforma6.Form3.resources
+C:\Users\Noi\Desktop\New folder (3)\Rangu_Elena_Proiect\Platforma11_Project\Platforma6\obj\Debug\Platforma6.Form4.resources
+C:\Users\Noi\Desktop\New folder (3)\Rangu_Elena_Proiect\Platforma11_Project\Platforma6\obj\Debug\Platforma6.FormMain.resources
+C:\Users\Noi\Desktop\New folder (3)\Rangu_Elena_Proiect\Platforma11_Project\Platforma6\obj\Debug\Platforma6.Properties.Resources.resources
+C:\Users\Noi\Desktop\New folder (3)\Rangu_Elena_Proiect\Platforma11_Project\Platforma6\obj\Debug\Platforma6.csproj.GenerateResource.cache
+C:\Users\Noi\Desktop\New folder (3)\Rangu_Elena_Proiect\Platforma11_Project\Platforma6\obj\Debug\Platforma6.exe
+C:\Users\Noi\Desktop\New folder (3)\Rangu_Elena_Proiect\Platforma11_Project\Platforma6\obj\Debug\Platforma6.pdb
+C:\Users\Noi\Desktop\New folder (3)\Rangu_Elena_Proiect\Platforma11_Project\Platforma6\bin\Debug\Platforma6.exe
+C:\Users\Noi\Desktop\New folder (3)\Rangu_Elena_Proiect\Platforma11_Project\Platforma6\bin\Debug\Platforma6.pdb

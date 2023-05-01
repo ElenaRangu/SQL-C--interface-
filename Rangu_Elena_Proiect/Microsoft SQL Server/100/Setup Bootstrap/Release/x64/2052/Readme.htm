@@ -1,0 +1,597 @@
+﻿<html DIR="LTR" xmlns:tool="http://www.microsoft.com/tooltip" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:MSHelp="http://msdn.microsoft.com/mshelp">
+  <head>
+    <META HTTP-EQUIV="Content-Type" CONTENT="text/html; CHARSET=utf-8" />
+    <META NAME="save" CONTENT="history" />
+    <title>Microsoft SQL Server 2008 自述文件</title>
+    
+    
+    
+    <style TYPE="text/css">
+body
+{
+background: #FFFFFF;
+color: #000000;
+font-family:    Verdana;
+font-size: medium;
+font-style: normal;
+font-weight: normal;
+margin-top: 0;
+margin-bottom:  0;
+margin-left:    0;
+margin-right:   0;
+width:  100%;
+}
+
+div.#mainSection
+{
+font-size: 70%;
+width: 100%;
+padding-left:    10;
+margin-right: 10;
+}
+
+div.#mainBody
+{
+font-size: 90%;
+margin-top: 10;
+padding-bottom: 20;
+}
+
+div.#header
+{
+background-color: #D2D2D2;
+padding-top:    0;
+padding-bottom: 0;
+padding-left:   10;
+padding-right:  0;
+width:          100%;
+}
+
+div.#header table
+{
+border-bottom-color: #C8CDDE;
+border-bottom-style: solid;
+border-bottom-width: 1;
+width:  100%;
+}
+
+span.#runningHeaderText
+{
+color: #003399;
+font-size: 90%;
+}
+
+span.#nsrTitle
+{
+/*    color: #003399;*/
+font-size: 120%;
+font-weight: 600;
+}
+
+div.#header table td
+{
+color: #000000;
+font-size: 70%;
+margin-top: 0;
+margin-bottom:  0;
+padding-right: 20;
+}
+
+div.#header table tr.#headerTableRow3 td
+{
+padding-bottom: 2;
+padding-top: 5;
+}
+
+div.#header table.#bottomTable
+{
+border-top-color: #FFFFFF;
+border-top-style: solid;
+border-top-width: 1;
+text-align: left;
+}
+
+div.#footer
+{
+font-size: 90%;
+margin-top: 0;
+margin-bottom:  0;
+margin-left:    -5;
+margin-right:   0;
+padding-top:    2;
+padding-bottom: 2;
+padding-left:   0;
+padding-right:  0;
+width:  100%;
+}
+
+hr.#footerHR
+{
+border-bottom-color: #EEEEFF;
+border-bottom-style: solid;
+border-bottom-width: 1;
+border-top-color: C8CDDE;
+border-top-style: solid;
+border-top-width: 1;
+height: 3;
+color: #D2D2D2;
+}
+
+div.section
+{
+padding-top:    2;
+padding-bottom: 2;
+padding-right:  15;
+width:  100%;
+}
+
+.heading
+{
+color:          #000000;
+font-weight:    bold;
+margin-top:     18;
+margin-bottom:  8;
+}
+
+h1.heading
+{
+color: #000000;
+font-size:  150%;
+}
+
+.subHeading
+{
+color:          #000000;
+font-weight:    bold;
+font-size:      150%;
+margin-bottom:  4;
+}
+
+h2.subHeading
+{
+color:          #000000;
+font-weight:    bold;
+font-size:      130%;
+}
+h3.subHeading
+{
+color:  #000000;
+font-size: 125%;
+font-weight: bold;
+}
+
+h4.subHeading
+{
+color: #000000;
+font-size: 110%;
+font-weight: bold;
+}
+
+h4.procedureHeading
+{
+color: #000080;
+font-size: 110%;
+font-weight: bold;
+}
+
+h5.subHeading
+{
+color: #000000;
+font-size: 100%;
+font-weight: bold;
+}
+
+img
+{
+padding-bottom: 10;
+}
+
+img.toggle
+{
+border: 0;
+margin-right: 5;
+padding-bottom: 10;
+}
+
+img.copyCodeImage
+{
+border: 0;
+margin: 1;
+margin-right: 3;
+padding-bottom: 10;
+}
+
+img.downloadCodeImage
+{
+border: 0;
+margin-right: 3;
+padding-bottom: 10;
+}
+
+img.viewCodeImage
+{
+border: 0;
+margin-right: 3;
+padding-bottom: 10;
+}
+
+img.note
+{
+border: 0;
+margin-right: 3;
+padding-bottom: 10;
+}
+
+img.#membersOptionsFilterImage
+{
+border: 0;
+margin-left: 10;
+vertical-align: middle;
+padding-bottom: 10;
+}
+
+img.#toggleAllImage
+{
+margin-left: 4;
+vertical-align: middle;
+padding-bottom: 10;
+}
+
+div.#mainSection table
+{
+border: 0;
+font-size: 100%;
+width:  100%;
+margin-top: 5px;
+margin-bottom: 15px;
+}
+
+div.#mainSection table tr
+{
+vertical-align: top;
+}
+
+div.#mainSection table th
+{
+text-align: left;
+background: #D8D8D8;
+border-bottom-color: #D8D8D8;
+border-bottom-style: solid;
+border-bottom-width: 1;
+color: #000000;
+padding-left: 5;
+padding-right: 5;
+}
+
+div.#mainSection table td
+{
+background: #F2F2F2;
+border-top-color: #D8D8D8;
+border-top-style: solid;
+border-top-width: 1;
+padding-left: 5;
+padding-right: 5;
+}
+
+div.#mainSection table td.imageCell
+{
+white-space: nowrap;
+}
+
+div.code
+{
+width: 98%;
+}
+
+div.code table
+{
+border: 0;
+font-size: 95%;
+margin-bottom: 5;
+width: 100%
+}
+
+div.code table th
+{
+text-align: left;
+background: #D8D8D8;
+border-bottom-color: #D8D8D8;
+border-bottom-style: solid;
+border-bottom-width: 1;
+color: #000000;
+font-weight: bold;
+padding-left: 5;
+padding-right: 5;
+}
+
+div.code table td
+{
+background: #CCCCCC;
+border-top-color: #D8D8D8;
+border-top-style: solid;
+border-top-width: 1;
+padding-left: 5;
+padding-right: 5;
+padding-top: 5;
+}
+
+div.alert
+{
+margin-left: 10;
+width: 98%;
+}
+
+div.alert table
+{
+border: 1;
+font-size: 100%;
+width:  100%;
+border: solid 1 #DEDFEF;
+}
+
+div.alert table th
+{
+text-align: left;
+background: #D8D8D8;
+border-bottom-width: 0;
+color: #000000;
+padding-left: 5;
+padding-right: 5;
+border: solid 1 #DEDFEF;
+}
+
+div.alert table td
+{
+background: #FFFFFF;
+border-top-color: #D8D8D8;
+border-top-style: solid;
+border-top-width: 1;
+padding-left: 5;
+padding-right: 5;
+border: solid 1 #DEDFEF;
+}
+
+span.copyCode
+{
+color: #0000ff;
+font-size: 90%;
+font-weight: normal;
+cursor: hand;
+float: right;
+display: inline;
+text-align: right;
+}
+
+.downloadCode
+{
+color: #0000ff;
+font-size: 90%;
+font-weight: normal;
+cursor: hand;
+}
+
+.viewCode
+{
+color: #0000ff;
+font-size: 90%;
+font-weight: normal;
+cursor: hand;
+}
+
+div.code pre
+{
+font-family:    Monospace, Courier New, Courier;
+font-size: 105%;
+color:  #000000;
+}
+
+code
+{
+font-family:    Monospace, Courier New, Courier;
+font-size: 105%;
+color:  #000000;
+}
+
+dl
+{
+margin-top: 0;
+padding-left:   1;
+}
+
+dd
+{
+margin-bottom:  0;
+margin-left:    0;
+padding-left:   20;
+}
+
+dd p
+{
+margin-top: 5;
+}
+
+ul
+{
+margin-left: 17;
+list-style-type: disc;
+}
+
+ul ul
+{
+margin-bottom: 4;
+margin-left: 17;
+margin-top: 3;
+list-style-type: disc;
+}
+
+ol
+{
+margin-left: 24;
+list-style-type: decimal;
+}
+
+ol ol
+{
+margin-left: 24;
+margin-top: 3;
+list-style-type: lower-alpha;
+}
+
+li
+{
+margin-top: 0;
+margin-bottom: 0;
+padding-bottom: 0;
+padding-top: 0;
+margin-left: 5;
+}
+
+p
+{
+margin-bottom: 15;
+}
+
+.tip
+{
+color:  #0000FF;
+font-style: italic;
+cursor:hand;
+text-decoration:underline;
+}
+
+.math
+{
+font-family: Times New Roman;
+font-size: 125%
+}
+.sourceCodeList
+{
+font-family: Verdana;
+font-size: 90%;
+}
+
+pre.viewCode
+{
+width: 100%;
+overflow: auto;
+}
+
+li:hover table, li.over table
+{
+background-color: #C0C0C0;
+}
+
+li:hover ul, li.over ul
+{
+background-color: #d2d2d2;
+border: 1px solid #000;
+display: block;
+}
+            </style>
+  </head>
+  <body>
+    <!--Topic built:06/27/2008 16:43:51-->
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <div id="header">
+      <table width="100%" id="topTable"><tr>
+          <td align="left">
+            <span id="nsrTitle">Microsoft SQL Server 2008 自述文件</span>
+          </td>
+          <td align="right">
+            <span id="headfb" class="feedbackhead">
+            </span>
+          </td>
+        </tr></table>
+      
+      
+      
+    </div>
+    <div id="mainSection">
+      <div id="mainBody"><p> 2008 年 6 月 27 日下午 4:43:51</p>
+        
+        <font color="DarkGray"> </font><p /> 
+        <span id="changeHistory">
+        </span>
+    <p>此自述文档包含了重要信息，请在安装 Microsoft<sup>&#174;</sup> SQL Server<sup>&#174;</sup> 2008 之前先阅读。本文档介绍了如何在《联机丛书》中查找安装帮助，如何查找“升级顾问”，如何在“发行说明”中查找补充的产品信息，另外还介绍了产品的版权归属。</p>
+    <p>本自述文件在安装媒体上位于 &lt;驱动器&gt;:\，也可以通过<a href="http://go.microsoft.com/fwlink/?LinkId=100093" alt=""><linkText xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5">自述文件下载页</linkText></a>获得。</p>
+  <h1 class="heading">使用联机丛书获取安装帮助</h1><div id="sectionSection0" class="section"><content xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5">
+      <p xmlns="">
+        SQL Server 2008 联机丛书是获取关于 SQL Server 安装帮助的主要文档。可以通过以下方式访问联机丛书：</p>
+      <ul xmlns=""><li>
+          使用为这一版 SQL Server 2008 提供的文档安装选项安装《联机丛书》。安装之后，更新到最新版。最新版可从<a href="http://go.microsoft.com/fwlink/?LinkID=111400" alt=""><linkText xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5">《联机丛书》下载页面</linkText></a>得到。<br />
+        </li><li>
+          在 <a href="http://go.microsoft.com/fwlink/?LinkID=98335" alt=""><linkText xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5">MSDN</linkText></a> 上查看联机丛书。
+        </li><li>
+          通过<a href="http://go.microsoft.com/fwlink/?LinkID=111400" alt=""><linkText xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5">联机丛书下载页</linkText></a>下载独立版本。
+        </li></ul>
+      <p xmlns="">若要在不访问联机丛书的情况下查看联机丛书安装文档，可以从安装媒体或从计算机使用以下路径打开 s10ch_setup.chm 文件：</p>
+      <ul xmlns=""><li>
+          若要从安装媒体打开 s10ch_setup.chm，请打开 &lt;<i>驱动器&gt;</i>:\[x86] | [x64] | [ia64]\help\2052\s10ch_setup.chm。<br />
+        </li><li>
+          若要从计算机打开 s10ch_setup.chm，请打开 &lt;<i>驱动器&gt;</i>:\%Program Files%\Microsoft SQL Server\100\Setup Bootstrap\CTP6\[x86] | [x64] | [ia64]\Help\2052\s10ch_setup.chm。
+        </li></ul>
+      <p xmlns="">MSDN 上的下列联机丛书主题包含有关安装 SQL Server 2008 的重要信息。这些主题也包含在安装版本的联机丛书以及 s10ch_setup.chm 文件中。</p>
+      <ul xmlns=""><li>
+          
+            <a href="http://go.microsoft.com/fwlink/?LinkID=108706" alt=""><linkText xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5">初始安装</linkText></a> <br />
+        </li><li>
+          
+            <a href="http://go.microsoft.com/fwlink/?LinkID=93997" alt=""><linkText xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5">硬件和软件要求</linkText></a>
+          <br />
+        </li><li>
+          
+            <a href="http://go.microsoft.com/fwlink/?LinkId=109268" alt=""><linkText xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5">如何安装 SQL Server 2008</linkText></a> <br />
+        </li><li>
+          
+            <a href="http://go.microsoft.com/fwlink/?LinkID=109269" alt=""><linkText xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5">如何升级到 SQL Server 2008</linkText></a>
+          <br />
+        </li><li>
+          
+            <a href="http://go.microsoft.com/fwlink/?LinkId=109294" alt=""><linkText xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5">如何从命令提示符安装 SQL Server 2008</linkText></a>
+          <br />
+        </li><li>
+          
+            <a href="http://go.microsoft.com/fwlink/?LinkId=109296" alt=""><linkText xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5">如何创建新的 SQL Server 2008 故障转移群集</linkText></a>
+          <br />
+        </li><li>
+          
+            <a href="http://go.microsoft.com/fwlink/?LinkId=122103" alt=""><linkText xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5">如何卸载现有的 SQL Server 实例（安装程序）</linkText></a>
+          <br />
+        </li></ul>
+    </content></div><h1 class="heading">通过升级顾问对升级进行分析</h1><div id="sectionSection1" class="section"><content xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5">
+      <p xmlns="">升级顾问工具分析当前的 SQL Server 实例，提供了应在升级前掌握的重要信息。有关 SQL Server 2008 升级顾问的详细信息，请参阅<a href="http://go.microsoft.com/fwlink/?LinkId=113913" alt=""><linkText xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5">升级顾问</linkText></a>网站。</p>
+    </content></div><h1 class="heading">阅读发行说明以了解最新产品信息</h1><div id="sectionSection2" class="section"><content xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5">
+      <p xmlns="">发行说明提供了有关仅适用于此版本或未在此版本的联机丛书中记录的产品行为的其他补充信息。可通过<a href="http://go.microsoft.com/fwlink/?LinkId=112421" alt=""><linkText xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5">发行说明下载页</linkText></a>下载发行说明文档。</p>
+    </content></div><h1 class="heading">版权归属</h1><div id="sectionSection3" class="section"><content xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5">
+      <ol xmlns=""><li>
+          此产品包含衍生自 Xerox 安全哈希函数的软件。<br />
+        </li><li>
+          此产品包含来自 zlib 通用压缩库的软件。<br />
+        </li><li>
+          此软件的部分在一定程度上基于 RSA Data Security, Inc 的作品。因为 Microsoft 已将 RSA Data Security, Inc 的软件包含在此产品中，Microsoft 需要随同此软件包含以下文字：<br />
+            <br />
+          版权所有 &#169; 1990，RSA Data Security, Inc. 保留所有权利。<br />
+            <br />
+          复制和使用此软件的许可的前提是，在所有提及或引用此软件或此函数的材料中注明“RSA Data Security, Inc., MD5 Message-Digest Algorithm”。创作或使用衍生作品的许可的前提是，在所有提及或者引用该衍生作品的材料中注明“derived from the RSA Data Security, Inc., MD5 Message-Digest Algorithm”。<br />
+            <br />
+          RSA Data Security, Inc 不作有关此软件的适销性或此软件针对任何特定用途的适用性的表述。此软件按“原样”提供，没有任何明示或默示的保证。<br />
+            <br />
+          这些声明应包含在此文档和/或软件的任一部分的任一副本中。<br />
+        </li></ol>
+    </content></div><!--[if gte IE 5]> 			<tool:tip element="seeAlsoToolTip" avoidmouse="false"/><tool:tip element="languageFilterToolTip" avoidmouse="false"/><tool:tip element="roleInfoSpan" avoidmouse="false"/> 		<![endif]--></div>
+      <div id="footer">
+			
+			&#169; 2008 Microsoft Corporation。保留所有权利。
+		</div>
+    </div>
+  </body>
+</html>

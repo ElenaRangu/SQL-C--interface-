@@ -1,0 +1,597 @@
+﻿<html DIR="LTR" xmlns:tool="http://www.microsoft.com/tooltip" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:MSHelp="http://msdn.microsoft.com/mshelp">
+  <head>
+    <META HTTP-EQUIV="Content-Type" CONTENT="text/html; CHARSET=utf-8" />
+    <META NAME="save" CONTENT="history" />
+    <title>Fichier Lisez-moi de Microsoft SQL Server 2008</title>
+    
+    
+    
+    <style TYPE="text/css">
+body
+{
+background: #FFFFFF;
+color: #000000;
+font-family:    Verdana;
+font-size: medium;
+font-style: normal;
+font-weight: normal;
+margin-top: 0;
+margin-bottom:  0;
+margin-left:    0;
+margin-right:   0;
+width:  100%;
+}
+
+div.#mainSection
+{
+font-size: 70%;
+width: 100%;
+padding-left:    10;
+margin-right: 10;
+}
+
+div.#mainBody
+{
+font-size: 90%;
+margin-top: 10;
+padding-bottom: 20;
+}
+
+div.#header
+{
+background-color: #D2D2D2;
+padding-top:    0;
+padding-bottom: 0;
+padding-left:   10;
+padding-right:  0;
+width:          100%;
+}
+
+div.#header table
+{
+border-bottom-color: #C8CDDE;
+border-bottom-style: solid;
+border-bottom-width: 1;
+width:  100%;
+}
+
+span.#runningHeaderText
+{
+color: #003399;
+font-size: 90%;
+}
+
+span.#nsrTitle
+{
+/*    color: #003399;*/
+font-size: 120%;
+font-weight: 600;
+}
+
+div.#header table td
+{
+color: #000000;
+font-size: 70%;
+margin-top: 0;
+margin-bottom:  0;
+padding-right: 20;
+}
+
+div.#header table tr.#headerTableRow3 td
+{
+padding-bottom: 2;
+padding-top: 5;
+}
+
+div.#header table.#bottomTable
+{
+border-top-color: #FFFFFF;
+border-top-style: solid;
+border-top-width: 1;
+text-align: left;
+}
+
+div.#footer
+{
+font-size: 90%;
+margin-top: 0;
+margin-bottom:  0;
+margin-left:    -5;
+margin-right:   0;
+padding-top:    2;
+padding-bottom: 2;
+padding-left:   0;
+padding-right:  0;
+width:  100%;
+}
+
+hr.#footerHR
+{
+border-bottom-color: #EEEEFF;
+border-bottom-style: solid;
+border-bottom-width: 1;
+border-top-color: C8CDDE;
+border-top-style: solid;
+border-top-width: 1;
+height: 3;
+color: #D2D2D2;
+}
+
+div.section
+{
+padding-top:    2;
+padding-bottom: 2;
+padding-right:  15;
+width:  100%;
+}
+
+.heading
+{
+color:          #000000;
+font-weight:    bold;
+margin-top:     18;
+margin-bottom:  8;
+}
+
+h1.heading
+{
+color: #000000;
+font-size:  150%;
+}
+
+.subHeading
+{
+color:          #000000;
+font-weight:    bold;
+font-size:      150%;
+margin-bottom:  4;
+}
+
+h2.subHeading
+{
+color:          #000000;
+font-weight:    bold;
+font-size:      130%;
+}
+h3.subHeading
+{
+color:  #000000;
+font-size: 125%;
+font-weight: bold;
+}
+
+h4.subHeading
+{
+color: #000000;
+font-size: 110%;
+font-weight: bold;
+}
+
+h4.procedureHeading
+{
+color: #000080;
+font-size: 110%;
+font-weight: bold;
+}
+
+h5.subHeading
+{
+color: #000000;
+font-size: 100%;
+font-weight: bold;
+}
+
+img
+{
+padding-bottom: 10;
+}
+
+img.toggle
+{
+border: 0;
+margin-right: 5;
+padding-bottom: 10;
+}
+
+img.copyCodeImage
+{
+border: 0;
+margin: 1;
+margin-right: 3;
+padding-bottom: 10;
+}
+
+img.downloadCodeImage
+{
+border: 0;
+margin-right: 3;
+padding-bottom: 10;
+}
+
+img.viewCodeImage
+{
+border: 0;
+margin-right: 3;
+padding-bottom: 10;
+}
+
+img.note
+{
+border: 0;
+margin-right: 3;
+padding-bottom: 10;
+}
+
+img.#membersOptionsFilterImage
+{
+border: 0;
+margin-left: 10;
+vertical-align: middle;
+padding-bottom: 10;
+}
+
+img.#toggleAllImage
+{
+margin-left: 4;
+vertical-align: middle;
+padding-bottom: 10;
+}
+
+div.#mainSection table
+{
+border: 0;
+font-size: 100%;
+width:  100%;
+margin-top: 5px;
+margin-bottom: 15px;
+}
+
+div.#mainSection table tr
+{
+vertical-align: top;
+}
+
+div.#mainSection table th
+{
+text-align: left;
+background: #D8D8D8;
+border-bottom-color: #D8D8D8;
+border-bottom-style: solid;
+border-bottom-width: 1;
+color: #000000;
+padding-left: 5;
+padding-right: 5;
+}
+
+div.#mainSection table td
+{
+background: #F2F2F2;
+border-top-color: #D8D8D8;
+border-top-style: solid;
+border-top-width: 1;
+padding-left: 5;
+padding-right: 5;
+}
+
+div.#mainSection table td.imageCell
+{
+white-space: nowrap;
+}
+
+div.code
+{
+width: 98%;
+}
+
+div.code table
+{
+border: 0;
+font-size: 95%;
+margin-bottom: 5;
+width: 100%
+}
+
+div.code table th
+{
+text-align: left;
+background: #D8D8D8;
+border-bottom-color: #D8D8D8;
+border-bottom-style: solid;
+border-bottom-width: 1;
+color: #000000;
+font-weight: bold;
+padding-left: 5;
+padding-right: 5;
+}
+
+div.code table td
+{
+background: #CCCCCC;
+border-top-color: #D8D8D8;
+border-top-style: solid;
+border-top-width: 1;
+padding-left: 5;
+padding-right: 5;
+padding-top: 5;
+}
+
+div.alert
+{
+margin-left: 10;
+width: 98%;
+}
+
+div.alert table
+{
+border: 1;
+font-size: 100%;
+width:  100%;
+border: solid 1 #DEDFEF;
+}
+
+div.alert table th
+{
+text-align: left;
+background: #D8D8D8;
+border-bottom-width: 0;
+color: #000000;
+padding-left: 5;
+padding-right: 5;
+border: solid 1 #DEDFEF;
+}
+
+div.alert table td
+{
+background: #FFFFFF;
+border-top-color: #D8D8D8;
+border-top-style: solid;
+border-top-width: 1;
+padding-left: 5;
+padding-right: 5;
+border: solid 1 #DEDFEF;
+}
+
+span.copyCode
+{
+color: #0000ff;
+font-size: 90%;
+font-weight: normal;
+cursor: hand;
+float: right;
+display: inline;
+text-align: right;
+}
+
+.downloadCode
+{
+color: #0000ff;
+font-size: 90%;
+font-weight: normal;
+cursor: hand;
+}
+
+.viewCode
+{
+color: #0000ff;
+font-size: 90%;
+font-weight: normal;
+cursor: hand;
+}
+
+div.code pre
+{
+font-family:    Monospace, Courier New, Courier;
+font-size: 105%;
+color:  #000000;
+}
+
+code
+{
+font-family:    Monospace, Courier New, Courier;
+font-size: 105%;
+color:  #000000;
+}
+
+dl
+{
+margin-top: 0;
+padding-left:   1;
+}
+
+dd
+{
+margin-bottom:  0;
+margin-left:    0;
+padding-left:   20;
+}
+
+dd p
+{
+margin-top: 5;
+}
+
+ul
+{
+margin-left: 17;
+list-style-type: disc;
+}
+
+ul ul
+{
+margin-bottom: 4;
+margin-left: 17;
+margin-top: 3;
+list-style-type: disc;
+}
+
+ol
+{
+margin-left: 24;
+list-style-type: decimal;
+}
+
+ol ol
+{
+margin-left: 24;
+margin-top: 3;
+list-style-type: lower-alpha;
+}
+
+li
+{
+margin-top: 0;
+margin-bottom: 0;
+padding-bottom: 0;
+padding-top: 0;
+margin-left: 5;
+}
+
+p
+{
+margin-bottom: 15;
+}
+
+.tip
+{
+color:  #0000FF;
+font-style: italic;
+cursor:hand;
+text-decoration:underline;
+}
+
+.math
+{
+font-family: Times New Roman;
+font-size: 125%
+}
+.sourceCodeList
+{
+font-family: Verdana;
+font-size: 90%;
+}
+
+pre.viewCode
+{
+width: 100%;
+overflow: auto;
+}
+
+li:hover table, li.over table
+{
+background-color: #C0C0C0;
+}
+
+li:hover ul, li.over ul
+{
+background-color: #d2d2d2;
+border: 1px solid #000;
+display: block;
+}
+            </style>
+  </head>
+  <body>
+    <!--Topic built:06/27/2008 16:43:51-->
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <div id="header">
+      <table width="100%" id="topTable"><tr>
+          <td align="left">
+            <span id="nsrTitle">Fichier Lisez-moi de Microsoft SQL Server 2008</span>
+          </td>
+          <td align="right">
+            <span id="headfb" class="feedbackhead">
+            </span>
+          </td>
+        </tr></table>
+      
+      
+      
+    </div>
+    <div id="mainSection">
+      <div id="mainBody"><p> 27/06/2008 4:43:51 PM</p>
+        
+        <font color="DarkGray"> </font><p /> 
+        <span id="changeHistory">
+        </span>
+    <p>Ce fichier Lisez-moi contient des informations importantes à lire avant d'installer Microsoft<sup>®</sup> SQL Server<sup>®</sup> 2008. Il explique comment obtenir de l'aide lors de l'installation dans la documentation en ligne, comment localiser le Conseiller de mise à niveau, comment rechercher des informations supplémentaires sur le produit dans les notes de mise à jour, et décrit les attributions de copyright du produit.</p>
+    <p>Ce fichier Lisez-moi est disponible sur votre support d'installation sur &lt;lecteur&gt;:\, ainsi qu'à partir de la <a href="http://go.microsoft.com/fwlink/?LinkId=100093" alt=""><linkText xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5">page de téléchargement du fichier Lisez-moi</linkText></a>. </p>
+  <h1 class="heading">Utiliser la documentation en ligne pour obtenir de l'aide lors de l'installation</h1><div id="sectionSection0" class="section"><content xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5">
+      <p xmlns="">
+        La documentation en ligne de SQL Server 2008 est la documentation principale pour obtenir de l'aide lors de l'installation de SQL Server. Vous pouvez vous procurer la documentation en ligne des façons suivantes :</p>
+      <ul xmlns=""><li>
+          Installez la documentation en ligne avec l'option d'installation de la documentation pour cette version de SQL Server 2008. Après l’installation, effectuez la mise à jour vers la dernière version, qui est disponible à partir de la <a href="http://go.microsoft.com/fwlink/?LinkID=111400" alt=""><linkText xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5">page de téléchargement de la documentation en ligne</linkText></a>.<br />
+        </li><li>
+          Consultez la documentation en ligne sur <a href="http://go.microsoft.com/fwlink/?LinkID=98335" alt=""><linkText xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5">MSDN</linkText></a>.<br />
+        </li><li>
+          Téléchargez une version autonome à partir de la <a href="http://go.microsoft.com/fwlink/?LinkID=111400" alt=""><linkText xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5">page de téléchargement de la documentation en ligne</linkText></a>.<br />
+        </li></ul>
+      <p xmlns="">Pour afficher la documentation sur l'installation de la documentation en ligne sans accéder à la documentation en ligne, vous pouvez ouvrir le fichier s10ch_setup.chm à partir du support d'installation ou de votre ordinateur en utilisant les chemins d'accès suivants :</p>
+      <ul xmlns=""><li>
+          Pour ouvrir s10ch_setup.chm à partir du support d'installation, ouvrez &lt;<i>lecteur&gt;</i>:\[x86] | [x64] | [ia64]\help\1036\s10ch_setup.chm.<br />
+        </li><li>
+          Pour ouvrir s10ch_setup.chm sur votre ordinateur, ouvrez &lt;<i>lecteur&gt;</i>:\%Program Files%\Microsoft SQL Server\100\Setup Bootstrap\CTP6\[x86] | [x64] | [ia64]\Help\1033\s10ch_setup.chm.
+        </li></ul>
+      <p xmlns="">Les rubriques suivantes de la documentation en ligne sur MSDN contiennent des informations importantes sur l'installation de SQL Server 2008. Ces rubriques figurent également dans les versions installées de la documentation en ligne et dans le fichier s10ch_setup.chm.</p>
+      <ul xmlns=""><li>
+          
+            <a href="http://go.microsoft.com/fwlink/?LinkID=108706" alt=""><linkText xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5">Installation initiale</linkText></a> <br />
+        </li><li>
+          
+            <a href="http://go.microsoft.com/fwlink/?LinkID=93997" alt=""><linkText xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5">Configuration matérielle et logicielle requise</linkText></a>
+          <br />
+        </li><li>
+          
+            <a href="http://go.microsoft.com/fwlink/?LinkId=109268" alt=""><linkText xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5">Procédure : installer SQL Server 2008</linkText></a> <br />
+        </li><li>
+          
+            <a href="http://go.microsoft.com/fwlink/?LinkID=109269" alt=""><linkText xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5">Procédure : effectuer une mise à niveau vers SQL Server 2008</linkText></a>
+          <br />
+        </li><li>
+          
+            <a href="http://go.microsoft.com/fwlink/?LinkId=109294" alt=""><linkText xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5">Procédure : installer SQL Server 2008 à partir de l'invite de commandes</linkText></a>
+          <br />
+        </li><li>
+          
+            <a href="http://go.microsoft.com/fwlink/?LinkId=109296" alt=""><linkText xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5">Procédure : créer un nouveau cluster de basculement SQL Server 2008</linkText></a>
+          <br />
+        </li><li>
+          
+            <a href="http://go.microsoft.com/fwlink/?LinkId=122103" alt=""><linkText xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5">Procédure  désinstaller une instance existante de SQL Server (programme d'installation)</linkText></a>
+          <br />
+        </li></ul>
+    </content></div><h1 class="heading">Analyser la mise à niveau avec le Conseiller de mise à niveau</h1><div id="sectionSection1" class="section"><content xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5">
+      <p xmlns="">L'outil Conseiller de mise à niveau analyse votre instance actuelle de SQL Server et fournit des informations importantes à connaître avant de procéder à la mise à niveau. Pour plus d'informations sur le Conseiller de mise à niveau SQL Server 2008, consultez le site Web du <a href="http://go.microsoft.com/fwlink/?LinkId=113913" alt=""><linkText xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5">Conseiller de mise à niveau</linkText></a>.</p>
+    </content></div><h1 class="heading">Lire les notes de mise à jour pour connaître les dernières informations sur le produit</h1><div id="sectionSection2" class="section"><content xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5">
+      <p xmlns="">Les notes de mise à jour proposent des informations supplémentaires sur les comportements du produit qui s'appliquent uniquement à cette version ou qui ne sont pas documentés dans cette version de la documentation en ligne. Le document des notes de mise à jour est disponible à partir de la <a href="http://go.microsoft.com/fwlink/?LinkId=112421" alt=""><linkText xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5">page de téléchargement des notes de mise à jour</linkText></a>.</p>
+    </content></div><h1 class="heading">Attributions de copyright</h1><div id="sectionSection3" class="section"><content xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5">
+      <ol xmlns=""><li>
+          Ce produit contient un logiciel dérivé de la fonction de hachage sécurisée Xerox.<br />
+        </li><li>
+          Ce produit contient un logiciel provenant de la bibliothèque de compression à caractère général zlib.<br />
+        </li><li>
+          Des éléments de ce logiciel sont basés en partie sur le travail de RSA Data Security, Inc. Dans la mesure où Microsoft a inclus le logiciel RSA Data Security, Inc., dans ce produit, la société est tenue d'inclure le texte ci-dessous qui figure dans ce logiciel : <br />
+            <br />
+          Copyright © 1990, RSA Data Security, Inc. Tous droits réservés.<br />
+            <br />
+          La licence permettant de copier et d'utiliser ce logiciel est accordée à condition que la mention « RSA Data Security, Inc., MD5 Message-Digest Algorithm » figure sur tous les documents qui citent ce logiciel ou cette fonction, ou y font référence. La licence permettant de créer et d'utiliser des travaux dérivés est également accordée à condition que de tels travaux soient identifiés comme étant « dérivés de RSA Data Security, Inc., MD5 Message-Digest Algorithm »  sur tous les documents qui citent les travaux dérivés ou y font référence.<br />
+            <br />
+          RSA Data Security, Inc., ne fait aucune déclaration quant à la qualité et l'adéquation du présent logiciel à un usage particulier. Il est fourni « en l'état », sans garantie expresse ou implicite.<br />
+            <br />
+          Ces mentions doivent être conservées dans toute copie de toute partie de cette documentation et/ou de ce logiciel.<br />
+        </li></ol>
+    </content></div><!--[if gte IE 5]> 			<tool:tip element="seeAlsoToolTip" avoidmouse="false"/><tool:tip element="languageFilterToolTip" avoidmouse="false"/><tool:tip element="roleInfoSpan" avoidmouse="false"/> 		<![endif]--></div>
+      <div id="footer">
+			
+			© 2008 Microsoft Corporation. Tous droits réservés.
+		</div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,1 @@
+<SqlDumperPrivateConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.microsoft.com/sql/configuration/SqlEngineDumper/Private/2007/05"><ErrorDumpDir>c:\Program Files\Microsoft SQL Server\MSSQL10.SQLEXPRESS\MSSQL\LOG\</ErrorDumpDir><TimeOfReporting>60</TimeOfReporting></SqlDumperPrivateConfig>

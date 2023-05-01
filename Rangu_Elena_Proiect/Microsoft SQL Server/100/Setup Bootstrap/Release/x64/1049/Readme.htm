@@ -1,0 +1,599 @@
+﻿<html DIR="LTR" xmlns:tool="http://www.microsoft.com/tooltip" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ddue="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:MSHelp="http://msdn.microsoft.com/mshelp">
+  <head>
+    <META HTTP-EQUIV="Content-Type" CONTENT="text/html; CHARSET=utf-8" />
+    <META NAME="save" CONTENT="history" />
+    <title>Файл Readme для Microsoft SQL Server 2008</title>
+    
+    
+    
+    <style TYPE="text/css">
+body
+{
+background: #FFFFFF;
+color: #000000;
+font-family:    Verdana;
+font-size: medium;
+font-style: normal;
+font-weight: normal;
+margin-top: 0;
+margin-bottom:  0;
+margin-left:    0;
+margin-right:   0;
+width:  100%;
+}
+
+div.#mainSection
+{
+font-size: 70%;
+width: 100%;
+padding-left:    10;
+margin-right: 10;
+}
+
+div.#mainBody
+{
+font-size: 90%;
+margin-top: 10;
+padding-bottom: 20;
+}
+
+div.#header
+{
+background-color: #D2D2D2;
+padding-top:    0;
+padding-bottom: 0;
+padding-left:   10;
+padding-right:  0;
+width:          100%;
+}
+
+div.#header table
+{
+border-bottom-color: #C8CDDE;
+border-bottom-style: solid;
+border-bottom-width: 1;
+width:  100%;
+}
+
+span.#runningHeaderText
+{
+color: #003399;
+font-size: 90%;
+}
+
+span.#nsrTitle
+{
+/*    color: #003399;*/
+font-size: 120%;
+font-weight: 600;
+}
+
+div.#header table td
+{
+color: #000000;
+font-size: 70%;
+margin-top: 0;
+margin-bottom:  0;
+padding-right: 20;
+}
+
+div.#header table tr.#headerTableRow3 td
+{
+padding-bottom: 2;
+padding-top: 5;
+}
+
+div.#header table.#bottomTable
+{
+border-top-color: #FFFFFF;
+border-top-style: solid;
+border-top-width: 1;
+text-align: left;
+}
+
+div.#footer
+{
+font-size: 90%;
+margin-top: 0;
+margin-bottom:  0;
+margin-left:    -5;
+margin-right:   0;
+padding-top:    2;
+padding-bottom: 2;
+padding-left:   0;
+padding-right:  0;
+width:  100%;
+}
+
+hr.#footerHR
+{
+border-bottom-color: #EEEEFF;
+border-bottom-style: solid;
+border-bottom-width: 1;
+border-top-color: C8CDDE;
+border-top-style: solid;
+border-top-width: 1;
+height: 3;
+color: #D2D2D2;
+}
+
+div.section
+{
+padding-top:    2;
+padding-bottom: 2;
+padding-right:  15;
+width:  100%;
+}
+
+.heading
+{
+color:          #000000;
+font-weight:    bold;
+margin-top:     18;
+margin-bottom:  8;
+}
+
+h1.heading
+{
+color: #000000;
+font-size:  150%;
+}
+
+.subHeading
+{
+color:          #000000;
+font-weight:    bold;
+font-size:      150%;
+margin-bottom:  4;
+}
+
+h2.subHeading
+{
+color:          #000000;
+font-weight:    bold;
+font-size:      130%;
+}
+h3.subHeading
+{
+color:  #000000;
+font-size: 125%;
+font-weight: bold;
+}
+
+h4.subHeading
+{
+color: #000000;
+font-size: 110%;
+font-weight: bold;
+}
+
+h4.procedureHeading
+{
+color: #000080;
+font-size: 110%;
+font-weight: bold;
+}
+
+h5.subHeading
+{
+color: #000000;
+font-size: 100%;
+font-weight: bold;
+}
+
+img
+{
+padding-bottom: 10;
+}
+
+img.toggle
+{
+border: 0;
+margin-right: 5;
+padding-bottom: 10;
+}
+
+img.copyCodeImage
+{
+border: 0;
+margin: 1;
+margin-right: 3;
+padding-bottom: 10;
+}
+
+img.downloadCodeImage
+{
+border: 0;
+margin-right: 3;
+padding-bottom: 10;
+}
+
+img.viewCodeImage
+{
+border: 0;
+margin-right: 3;
+padding-bottom: 10;
+}
+
+img.note
+{
+border: 0;
+margin-right: 3;
+padding-bottom: 10;
+}
+
+img.#membersOptionsFilterImage
+{
+border: 0;
+margin-left: 10;
+vertical-align: middle;
+padding-bottom: 10;
+}
+
+img.#toggleAllImage
+{
+margin-left: 4;
+vertical-align: middle;
+padding-bottom: 10;
+}
+
+div.#mainSection table
+{
+border: 0;
+font-size: 100%;
+width:  100%;
+margin-top: 5px;
+margin-bottom: 15px;
+}
+
+div.#mainSection table tr
+{
+vertical-align: top;
+}
+
+div.#mainSection table th
+{
+text-align: left;
+background: #D8D8D8;
+border-bottom-color: #D8D8D8;
+border-bottom-style: solid;
+border-bottom-width: 1;
+color: #000000;
+padding-left: 5;
+padding-right: 5;
+}
+
+div.#mainSection table td
+{
+background: #F2F2F2;
+border-top-color: #D8D8D8;
+border-top-style: solid;
+border-top-width: 1;
+padding-left: 5;
+padding-right: 5;
+}
+
+div.#mainSection table td.imageCell
+{
+white-space: nowrap;
+}
+
+div.code
+{
+width: 98%;
+}
+
+div.code table
+{
+border: 0;
+font-size: 95%;
+margin-bottom: 5;
+width: 100%
+}
+
+div.code table th
+{
+text-align: left;
+background: #D8D8D8;
+border-bottom-color: #D8D8D8;
+border-bottom-style: solid;
+border-bottom-width: 1;
+color: #000000;
+font-weight: bold;
+padding-left: 5;
+padding-right: 5;
+}
+
+div.code table td
+{
+background: #CCCCCC;
+border-top-color: #D8D8D8;
+border-top-style: solid;
+border-top-width: 1;
+padding-left: 5;
+padding-right: 5;
+padding-top: 5;
+}
+
+div.alert
+{
+margin-left: 10;
+width: 98%;
+}
+
+div.alert table
+{
+border: 1;
+font-size: 100%;
+width:  100%;
+border: solid 1 #DEDFEF;
+}
+
+div.alert table th
+{
+text-align: left;
+background: #D8D8D8;
+border-bottom-width: 0;
+color: #000000;
+padding-left: 5;
+padding-right: 5;
+border: solid 1 #DEDFEF;
+}
+
+div.alert table td
+{
+background: #FFFFFF;
+border-top-color: #D8D8D8;
+border-top-style: solid;
+border-top-width: 1;
+padding-left: 5;
+padding-right: 5;
+border: solid 1 #DEDFEF;
+}
+
+span.copyCode
+{
+color: #0000ff;
+font-size: 90%;
+font-weight: normal;
+cursor: hand;
+float: right;
+display: inline;
+text-align: right;
+}
+
+.downloadCode
+{
+color: #0000ff;
+font-size: 90%;
+font-weight: normal;
+cursor: hand;
+}
+
+.viewCode
+{
+color: #0000ff;
+font-size: 90%;
+font-weight: normal;
+cursor: hand;
+}
+
+div.code pre
+{
+font-family:    Monospace, Courier New, Courier;
+font-size: 105%;
+color:  #000000;
+}
+
+code
+{
+font-family:    Monospace, Courier New, Courier;
+font-size: 105%;
+color:  #000000;
+}
+
+dl
+{
+margin-top: 0;
+padding-left:   1;
+}
+
+dd
+{
+margin-bottom:  0;
+margin-left:    0;
+padding-left:   20;
+}
+
+dd p
+{
+margin-top: 5;
+}
+
+ul
+{
+margin-left: 17;
+list-style-type: disc;
+}
+
+ul ul
+{
+margin-bottom: 4;
+margin-left: 17;
+margin-top: 3;
+list-style-type: disc;
+}
+
+ol
+{
+margin-left: 24;
+list-style-type: decimal;
+}
+
+ol ol
+{
+margin-left: 24;
+margin-top: 3;
+list-style-type: lower-alpha;
+}
+
+li
+{
+margin-top: 0;
+margin-bottom: 0;
+padding-bottom: 0;
+padding-top: 0;
+margin-left: 5;
+}
+
+p
+{
+margin-bottom: 15;
+}
+
+.tip
+{
+color:  #0000FF;
+font-style: italic;
+cursor:hand;
+text-decoration:underline;
+}
+
+.math
+{
+font-family: Times New Roman;
+font-size: 125%
+}
+.sourceCodeList
+{
+font-family: Verdana;
+font-size: 90%;
+}
+
+pre.viewCode
+{
+width: 100%;
+overflow: auto;
+}
+
+li:hover table, li.over table
+{
+background-color: #C0C0C0;
+}
+
+li:hover ul, li.over ul
+{
+background-color: #d2d2d2;
+border: 1px solid #000;
+display: block;
+}
+            </style>
+  </head>
+  <body>
+    <!--Topic built:06/27/2008 16:43:51-->
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <div id="header">
+      <table width="100%" id="topTable"><tr>
+          <td align="left">
+            <span id="nsrTitle">Файл Readme для Microsoft SQL Server 2008</span>
+          </td>
+          <td align="right">
+            <span id="headfb" class="feedbackhead">
+            </span>
+          </td>
+        </tr></table>
+      
+      
+      
+    </div>
+    <div id="mainSection">
+      <div id="mainBody"><p> 27.06.2008г. 16:43:51</p>
+        
+        <font color="DarkGray"> </font><p /> 
+        <span id="changeHistory">
+        </span>
+    <p>Этот документ Readme содержит важную информацию, которую следует прочитать перед установкой Microsoft<sup>®</sup> SQL Server<sup>®</sup> 2008. В документе описаны способы поиска справки по установке в электронной документации, способы поиска помощника по обновлению, способы поиска дополнительных сведений о продукте в заметках о версии. Также в документе содержатся указания на авторские права на продукт.</p>
+    <p>Этот файл Readme доступен на установочном носителе <диск>:\, а также на <a href="http://go.microsoft.com/fwlink/?LinkId=100093" alt=""><linkText xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5">странице загрузки файла Readme</linkText></a>. </p>
+  <h1 class="heading">Используйте электронную документацию для получения помощи в установке</h1><div id="sectionSection0" class="section"><content xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5">
+      <p xmlns="">
+        Электронная документация по SQL Server 2008 является основным источником справочных сведений по установке SQL Server. Получить доступ к электронной документации можно следующими способами.</p>
+      <ul xmlns=""><li>
+          Установить электронную документацию для данной версии SQL Server 2008, включив параметр установки документации. После установки обновления последней версии, которая доступна на <a href="http://go.microsoft.com/fwlink/?LinkID=111400" alt=""><linkText xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5">странице загрузки электронной документации</linkText></a>.<br />
+        </li><li>
+          Просмотреть электронную документацию в <a href="http://go.microsoft.com/fwlink/?LinkID=98335" alt=""><linkText xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5">MSDN</linkText></a>.<br />
+        </li><li>
+          Загрузить изолированную версию на <a href="http://go.microsoft.com/fwlink/?LinkID=111400" alt=""><linkText xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5">странице загрузки электронной документации</linkText></a>.<br />
+        </li></ul>
+      <p xmlns="">Чтобы просмотреть документацию по установке, не заходя в электронную документацию, можно открыть файл s10ch_setup.chm с установочного носителя или с вашего компьютера по следующим путям.</p>
+      <ul xmlns=""><li>
+          Чтобы открыть файл s10ch_setup.chm с установочного носителя, откройте файл <<i>диск</i>>:\[x86] | [x64] | [ia64]\help\1049\s10ch_setup.chm.<br />
+        </li><li>
+          Чтобы открыть файл s10ch_setup.chm с вашего компьютера, откройте файл <<i>диск</i>>:\%Program Files%\Microsoft SQL Server\100\Setup Bootstrap\CTP6\[x86] | [x64] | [ia64]\Help\1049\s10ch_setup.chm. <br />
+        </li></ul>
+      <p xmlns="">Следующие разделы электронной документации в MSDN содержат важные сведения об установке SQL Server 2008. Эти разделы есть также в установленных версиях электронной документации и в файле s10ch_setup.chm.</p>
+      <ul xmlns=""><li>
+          
+            <a href="http://go.microsoft.com/fwlink/?LinkID=108706" alt=""><linkText xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5">Первоначальная установка</linkText></a> <br />
+        </li><li>
+          
+            <a href="http://go.microsoft.com/fwlink/?LinkID=93997" alt=""><linkText xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5">Требования к оборудованию и программному обеспечению</linkText></a>
+          <br />
+        </li><li>
+          
+            <a href="http://go.microsoft.com/fwlink/?LinkId=109268" alt=""><linkText xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5">Как установить SQL Server 2008</linkText></a> <br />
+        </li><li>
+          
+            <a href="http://go.microsoft.com/fwlink/?LinkID=109269" alt=""><linkText xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5">Как обновить версию до SQL Server 2008</linkText></a>
+          <br />
+        </li><li>
+          
+            <a href="http://go.microsoft.com/fwlink/?LinkId=109294" alt=""><linkText xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5">Как установить SQL Server 2008 из командной строки</linkText></a>
+          <br />
+        </li><li>
+          
+            <a href="http://go.microsoft.com/fwlink/?LinkId=109296" alt=""><linkText xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5">Как создать новый отказоустойчивый кластер SQL Server 2008 (программа установки)</linkText></a>
+          <br />
+        </li><li>
+          
+            <a href="http://go.microsoft.com/fwlink/?LinkId=122103" alt=""><linkText xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5">Как удалить существующий экземпляр SQL Server (программа установки)</linkText></a>
+          <br />
+        </li></ul>
+    </content></div><h1 class="heading">Выполните анализ с использованием помощника по обновлению</h1><div id="sectionSection1" class="section"><content xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5">
+      <p xmlns="">Помощник по обновлению анализирует текущий экземпляр SQL Server и предоставляет важные сведения, которые необходимо знать перед обновлением. Сведения о помощнике по обновлению SQL Server 2008 см. на веб-узле <a href="http://go.microsoft.com/fwlink/?LinkId=113913" alt=""><linkText xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5">Помощник по обновлению</linkText></a>.</p>
+    </content></div><h1 class="heading">Прочитайте заметки о версии для получения последних сведений о продукте</h1><div id="sectionSection2" class="section"><content xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5">
+      <p xmlns="">Заметки о версии дают дополнительные сведения о поведении продукта, которые применимы только к этой версии или не документированы в этой версии электронной документации. Документ заметок о версии доступен на <a href="http://go.microsoft.com/fwlink/?LinkId=112421" alt=""><linkText xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5">странице загрузки заметок о версии</linkText></a>.</p>
+    </content></div><h1 class="heading">Указания на авторские права</h1><div id="sectionSection3" class="section"><content xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5">
+      <ol xmlns=""><li>
+          Продукт содержит программное обеспечение, производное от безопасной хэш-функции Xerox.<br />
+        </li><li>
+          Продукт содержит программное обеспечение из библиотеки сжатия zlib общего назначения.<br />
+        </li><li>
+          Компоненты данного программного обеспечения частично основаны на работе корпорации RSA Data Security, Inc. Поскольку корпорация Майкрософт включила в этот продукт программное обеспечение корпорации RSA Data Security, Inc., корпорация Майкрософт обязана включать приведенный ниже текст, сопровождающий это программное обеспечение. <br />
+            <br />
+          © Корпорация RSA Data Security, Inc., 1990. Все права защищены.<br />
+            <br />
+          Лицензия на копирование и использование этого программного обеспечения предоставляется при условии, что оно описано как «алгоритм MD5 Message-Digest корпорации RSA Data Security, Inc.» во всех материалах, где упоминается это программное обеспечение или эта функция или есть ссылки на них. Также предоставляется лицензия на создание и использование производных работ при условии, что эти работ описаны как «производные от алгоритма MD5 Message-Digest корпорации RSA Data Security, Inc.» во всех материалах.<br />
+            <br />
+          Корпорация RSA Data Security, Inc. не гарантирует коммерческие качества данного программного обеспечения или его пригодность для определенной цели. Оно предоставляется «как есть»: без каких-либо явных или подразумеваемых гарантий.<br />
+            <br />
+          Эти примечания необходимо сохранять в любой копии любой части данной документации и/или программного обеспечения.<br />
+        </li></ol>
+    </content></div><!--[if gte IE 5]>
+ 			<tool:tip element="seeAlsoToolTip" avoidmouse="false"/><tool:tip element="languageFilterToolTip" avoidmouse="false"/><tool:tip element="roleInfoSpan" avoidmouse="false"/>
+ 		<![endif]--></div>
+      <div id="footer">
+			
+			© Корпорация Майкрософт, 2008. Все права защищены.
+		</div>
+    </div>
+  </body>
+</html>

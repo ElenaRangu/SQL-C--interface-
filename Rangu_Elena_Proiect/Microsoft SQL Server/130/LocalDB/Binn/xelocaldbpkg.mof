@@ -1,0 +1,205 @@
+
+//*********************************************************************
+//              Copyright (c) Microsoft Corporation.
+//
+//*********************************************************************
+
+#pragma classflags("forceupdate")
+#pragma AUTORECOVER
+#pragma namespace("\\\\.\\root\\wmi")
+
+[dynamic: ToInstance, Description("LocalDBXEventsPackage"),
+    Guid("{e2fc7ccd-b0b7-45a7-8d16-312846369fd4}"), locale("MS\\0x409")]
+class XeLocalDBPkg: EventTrace
+{
+	
+	[Description ("Enable flags") : amended,
+	ValueDescriptions{
+		"error keyword",
+		"create keyword",
+		"start keyword",
+		"stop keyword",
+		"delete keyword",
+		"share keyword",
+		"unshare keyword"
+	} : amended,
+	DefineValues{
+		"ETW_XELOCALDBPKG_ERROR"
+		,
+		"ETW_XELOCALDBPKG_CREATE"
+		,
+		"ETW_XELOCALDBPKG_START"
+		,
+		"ETW_XELOCALDBPKG_STOP"
+		,
+		"ETW_XELOCALDBPKG_DELETE"
+		,
+		"ETW_XELOCALDBPKG_SHARE"
+		,
+		"ETW_XELOCALDBPKG_UNSHARE"
+		},
+	Values{
+		"error",
+		"create",
+		"start",
+		"stop",
+		"delete",
+		"share",
+		"unshare"
+		},
+	ValueMap{
+		"1",
+		"2",
+		"4",
+		"8",
+		"16",
+		"32",
+		"64"
+		}
+	]
+	uint32 Flags;
+
+};
+
+	
+[dynamic: ToInstance, Description("LocalDB XEvent which will be raised when unexpected error occurs in LocalDB API call"): Amended,
+    Guid("{962AE7D9-8961-4CA7-909E-750693466DA7}"), locale("MS\\0x409"),
+    DisplayName("local_db_error"): Amended]
+class XeLocalDBPkg_local_db_error: XeLocalDBPkg
+{
+};
+
+[dynamic: ToInstance, EventType(0), EventVersion(1)]
+class local_db_error: XeLocalDBPkg_local_db_error
+{
+	[WmiDataId(1), Description("FragmentId"): Amended,read] uint32 FragmentId;
+	[WmiDataId(2), Description("RemainingLength"): Amended,read] uint32 RemainingLength;
+	[WmiDataId(3), Description("ActivityId"): Amended,ActivityID, read, Extension("Guid")] guid ActivityId;
+	[WmiDataId(4), Description("SequenceNumber"): Amended,read] uint32 SequenceNumber;
+	[WmiDataId(5), read] uint64 line_number;
+	[WmiDataId(6), read] sint64 win32_api_error;
+	[WmiDataId(7), read, StringTermination("NullTerminated"), Format("w")] string win32_api;
+	[WmiDataId(8), read, StringTermination("NullTerminated"), Format("w")] string context;
+};
+		
+[dynamic: ToInstance, Description("LocalDB XEvent which will be raised when LocalDBCreateInstance is executed"): Amended,
+    Guid("{E48F6E04-4D33-48D4-97FE-3758B37627C6}"), locale("MS\\0x409"),
+    DisplayName("local_db_create_instance"): Amended]
+class XeLocalDBPkg_local_db_create_instance: XeLocalDBPkg
+{
+};
+
+[dynamic: ToInstance, EventType(0), EventVersion(1)]
+class local_db_create_instance: XeLocalDBPkg_local_db_create_instance
+{
+	[WmiDataId(1), Description("FragmentId"): Amended,read] uint32 FragmentId;
+	[WmiDataId(2), Description("RemainingLength"): Amended,read] uint32 RemainingLength;
+	[WmiDataId(3), Description("ActivityId"): Amended,ActivityID, read, Extension("Guid")] guid ActivityId;
+	[WmiDataId(4), Description("SequenceNumber"): Amended,read] uint32 SequenceNumber;
+	[WmiDataId(5), read] uint64 flags;
+	[WmiDataId(6), read] sint64 result;
+	[WmiDataId(7), read, StringTermination("NullTerminated"), Format("w")] string version;
+	[WmiDataId(8), read, StringTermination("NullTerminated"), Format("w")] string instance_name;
+};
+		
+[dynamic: ToInstance, Description("LocalDB XEvent which will be raised when LocalDBStartInstance is executed"): Amended,
+    Guid("{38B0017F-C284-42F9-8C07-D30B313DC626}"), locale("MS\\0x409"),
+    DisplayName("local_db_start_instance"): Amended]
+class XeLocalDBPkg_local_db_start_instance: XeLocalDBPkg
+{
+};
+
+[dynamic: ToInstance, EventType(0), EventVersion(1)]
+class local_db_start_instance: XeLocalDBPkg_local_db_start_instance
+{
+	[WmiDataId(1), Description("FragmentId"): Amended,read] uint32 FragmentId;
+	[WmiDataId(2), Description("RemainingLength"): Amended,read] uint32 RemainingLength;
+	[WmiDataId(3), Description("ActivityId"): Amended,ActivityID, read, Extension("Guid")] guid ActivityId;
+	[WmiDataId(4), Description("SequenceNumber"): Amended,read] uint32 SequenceNumber;
+	[WmiDataId(5), read] uint64 flags;
+	[WmiDataId(6), read] sint64 result;
+	[WmiDataId(7), read] uint64 sql_connection_len_in;
+	[WmiDataId(8), read] uint64 sql_connection_len_out;
+	[WmiDataId(9), read, StringTermination("NullTerminated"), Format("w")] string sql_connection;
+	[WmiDataId(10), read, StringTermination("NullTerminated"), Format("w")] string instance_name;
+};
+		
+[dynamic: ToInstance, Description("LocalDB XEvent which will be raised when LocalDBStopInstance is executed"): Amended,
+    Guid("{8B8ED394-41ED-495E-9A84-2064693AA822}"), locale("MS\\0x409"),
+    DisplayName("local_db_stop_instance"): Amended]
+class XeLocalDBPkg_local_db_stop_instance: XeLocalDBPkg
+{
+};
+
+[dynamic: ToInstance, EventType(0), EventVersion(1)]
+class local_db_stop_instance: XeLocalDBPkg_local_db_stop_instance
+{
+	[WmiDataId(1), Description("FragmentId"): Amended,read] uint32 FragmentId;
+	[WmiDataId(2), Description("RemainingLength"): Amended,read] uint32 RemainingLength;
+	[WmiDataId(3), Description("ActivityId"): Amended,ActivityID, read, Extension("Guid")] guid ActivityId;
+	[WmiDataId(4), Description("SequenceNumber"): Amended,read] uint32 SequenceNumber;
+	[WmiDataId(5), read] uint64 flags;
+	[WmiDataId(6), read] sint64 result;
+	[WmiDataId(7), read] uint64 timeout;
+	[WmiDataId(8), read, StringTermination("NullTerminated"), Format("w")] string instance_name;
+};
+		
+[dynamic: ToInstance, Description("LocalDB XEvent which will be raised when LocalDBDeleteInstance is executed"): Amended,
+    Guid("{DB99C7B4-7788-4F0E-A248-D9ACCDBCEEA6}"), locale("MS\\0x409"),
+    DisplayName("local_db_delete_instance"): Amended]
+class XeLocalDBPkg_local_db_delete_instance: XeLocalDBPkg
+{
+};
+
+[dynamic: ToInstance, EventType(0), EventVersion(1)]
+class local_db_delete_instance: XeLocalDBPkg_local_db_delete_instance
+{
+	[WmiDataId(1), Description("FragmentId"): Amended,read] uint32 FragmentId;
+	[WmiDataId(2), Description("RemainingLength"): Amended,read] uint32 RemainingLength;
+	[WmiDataId(3), Description("ActivityId"): Amended,ActivityID, read, Extension("Guid")] guid ActivityId;
+	[WmiDataId(4), Description("SequenceNumber"): Amended,read] uint32 SequenceNumber;
+	[WmiDataId(5), read] uint64 flags;
+	[WmiDataId(6), read] sint64 result;
+	[WmiDataId(7), read, StringTermination("NullTerminated"), Format("w")] string instance_name;
+};
+		
+[dynamic: ToInstance, Description("LocalDB XEvent which will be raised when LocalDBShareInstance is executed"): Amended,
+    Guid("{1CEA8999-AEEB-49E4-B76E-CA23382B206F}"), locale("MS\\0x409"),
+    DisplayName("local_db_share_instance"): Amended]
+class XeLocalDBPkg_local_db_share_instance: XeLocalDBPkg
+{
+};
+
+[dynamic: ToInstance, EventType(0), EventVersion(1)]
+class local_db_share_instance: XeLocalDBPkg_local_db_share_instance
+{
+	[WmiDataId(1), Description("FragmentId"): Amended,read] uint32 FragmentId;
+	[WmiDataId(2), Description("RemainingLength"): Amended,read] uint32 RemainingLength;
+	[WmiDataId(3), Description("ActivityId"): Amended,ActivityID, read, Extension("Guid")] guid ActivityId;
+	[WmiDataId(4), Description("SequenceNumber"): Amended,read] uint32 SequenceNumber;
+	[WmiDataId(5), read] uint64 flags;
+	[WmiDataId(6), read] sint64 result;
+	[WmiDataId(7), read, StringTermination("NullTerminated"), Format("w")] string private_instance_name;
+	[WmiDataId(8), read, StringTermination("NullTerminated"), Format("w")] string shared_instance_name;
+	[WmiDataId(9), read, StringTermination("NullTerminated"), Format("w")] string instance_owner_sid;
+};
+		
+[dynamic: ToInstance, Description("LocalDB XEvent which will be raised when LocalDBUnshareInstance is executed"): Amended,
+    Guid("{A26F00FE-B073-485F-8A30-C80D674DAD1E}"), locale("MS\\0x409"),
+    DisplayName("local_db_unshare_instance"): Amended]
+class XeLocalDBPkg_local_db_unshare_instance: XeLocalDBPkg
+{
+};
+
+[dynamic: ToInstance, EventType(0), EventVersion(1)]
+class local_db_unshare_instance: XeLocalDBPkg_local_db_unshare_instance
+{
+	[WmiDataId(1), Description("FragmentId"): Amended,read] uint32 FragmentId;
+	[WmiDataId(2), Description("RemainingLength"): Amended,read] uint32 RemainingLength;
+	[WmiDataId(3), Description("ActivityId"): Amended,ActivityID, read, Extension("Guid")] guid ActivityId;
+	[WmiDataId(4), Description("SequenceNumber"): Amended,read] uint32 SequenceNumber;
+	[WmiDataId(5), read] uint64 flags;
+	[WmiDataId(6), read] sint64 result;
+	[WmiDataId(7), read, StringTermination("NullTerminated"), Format("w")] string instance_name;
+};
+		

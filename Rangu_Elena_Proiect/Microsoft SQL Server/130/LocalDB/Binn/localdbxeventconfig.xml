@@ -1,0 +1,32 @@
+﻿<event_sessions xmlns="http://schemas.microsoft.com/sqlserver/2008/07/extendedeventsconfig">
+	<event_session 
+				 name="xeconfigtest" dispatchLatency="1" maxEventSize="4" 
+				   maxMemory="4" memoryPartitionMode="none" 
+				   eventRetentionMode="allowSingleEventLoss" trackCausality="true">
+		<event package="LocalDBXEventsPackage" name="local_db_create_instance">
+			<action package="PACKAGE0" name="callstack"/>
+		</event>
+		<event package="LocalDBXEventsPackage" name="local_db_stop_instance">
+			<action package="PACKAGE0" name="callstack"/>
+		</event>
+		<event package="LocalDBXEventsPackage" name="local_db_start_instance">
+			<action package="PACKAGE0" name="callstack"/>
+		</event>
+		<event package="LocalDBXEventsPackage" name="local_db_delete_instance">
+			<action package="PACKAGE0" name="callstack"/>
+		</event>
+		<event package="LocalDBXEventsPackage" name="local_db_error">
+			<action package="PACKAGE0" name="callstack"/>
+		</event>
+		<event package="LocalDBXEventsPackage" name="local_db_share_instance">
+			<action package="PACKAGE0" name="callstack"/>
+		</event>
+		<event package="LocalDBXEventsPackage" name="local_db_unshare_instance">
+			<action package="PACKAGE0" name="callstack"/>
+		</event>
+		<target package="Package0" name="event_file">
+			<parameter name="filename" value="local_db_xe_log.xel"/>
+			<parameter name="metadatafile" value="local_db_xe_log.xem"/>
+		</target>
+	</event_session>
+</event_sessions>

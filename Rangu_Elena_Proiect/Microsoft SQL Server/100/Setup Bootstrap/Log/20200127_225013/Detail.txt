@@ -1,0 +1,418 @@
+2020-01-27 22:50:13 Slp: Log provider 'Microsoft.SqlServer.Chainer.Infrastructure.LogProviderFile' has been registered
+2020-01-27 22:50:13 Slp: Log provider 'Microsoft.SqlServer.Chainer.Infrastructure.LogProviderStatus' has been registered
+2020-01-27 22:50:13 Slp: Reading XML resource 'Microsoft.SQL.Chainer.PackageData.Package.xml'
+2020-01-27 22:50:13 Slp: Reading schema resource 'Microsoft.SQL.Chainer.Package.Package.xsd'
+2020-01-27 22:50:13 Slp: Document 'Microsoft.SQL.Chainer.PackageData.Package.xml' validated with schema 'Microsoft.SQL.Chainer.Package.Package.xsd' has been successfuly loaded into datastore path '/Datastore/Package'
+2020-01-27 22:50:13 Slp: ----------------------------------------------------------------------
+2020-01-27 22:50:13 Slp: Running Action: ReadProductXML
+2020-01-27 22:50:13 Slp: Reading XML resource 'Microsoft.SQL.Chainer.Product.Product.xml'
+2020-01-27 22:50:13 Slp: Reading schema resource 'Microsoft.SQL.Chainer.Product.Product.xsd'
+2020-01-27 22:50:13 Slp: Document 'Microsoft.SQL.Chainer.Product.Product.xml' validated with schema 'Microsoft.SQL.Chainer.Product.Product.xsd' has been successfuly loaded into datastore path '/Datastore/Product'
+2020-01-27 22:50:13 Slp: Completed Action: ReadProductXML, returned True
+2020-01-27 22:50:13 Slp: ----------------------------------------------------------------------
+2020-01-27 22:50:13 Slp: Running Action: LoadExtensions
+2020-01-27 22:50:13 Slp: Loading extension 'MSI' from file 'c:\Program Files\Microsoft SQL Server\100\Setup Bootstrap\Release\x64\.\Microsoft.SqlServer.Configuration.MsiExtension.dll'
+2020-01-27 22:50:13 Slp: Extension 'MSI' version '10.0.1794.0' loaded
+2020-01-27 22:50:13 Slp: Loading extension 'Config' from file 'c:\Program Files\Microsoft SQL Server\100\Setup Bootstrap\Release\x64\.\Microsoft.SqlServer.Configuration.ConfigExtension.dll'
+2020-01-27 22:50:13 Slp: Extension 'Config' version '10.0.1766.0' loaded
+2020-01-27 22:50:13 Slp: Loading extension 'Common' from file 'c:\Program Files\Microsoft SQL Server\100\Setup Bootstrap\Release\x64\.\Microsoft.SqlServer.Chainer.ExtensionCommon.dll'
+2020-01-27 22:50:13 Slp: Extension 'Common' version '10.0.1766.0' loaded
+2020-01-27 22:50:13 Slp: Loading extension 'SqlConfigBase' from file 'c:\Program Files\Microsoft SQL Server\100\Setup Bootstrap\Release\x64\.\Microsoft.SqlServer.Configuration.SqlConfigBase.dll'
+2020-01-27 22:50:13 Slp: Extension 'SqlConfigBase' version '10.0.1766.0' loaded
+2020-01-27 22:50:13 Slp: Loading extension 'Slp' from file 'c:\Program Files\Microsoft SQL Server\100\Setup Bootstrap\Release\x64\.\Microsoft.SqlServer.Configuration.SetupExtension.dll'
+2020-01-27 22:50:13 Slp: Extension 'Slp' version '10.0.1794.0' loaded
+2020-01-27 22:50:13 Slp: Loading extension 'RulesEngine' from file 'c:\Program Files\Microsoft SQL Server\100\Setup Bootstrap\Release\x64\.\Microsoft.SqlServer.Configuration.RulesEngineExtension.dll'
+2020-01-27 22:50:13 Slp: Extension 'RulesEngine' version '10.0.1766.0' loaded
+2020-01-27 22:50:13 Slp: Loading extension 'SlpConfig' from file 'c:\Program Files\Microsoft SQL Server\100\Setup Bootstrap\Release\x64\.\Microsoft.SqlServer.Configuration.SlpExtension.dll'
+2020-01-27 22:50:13 Slp: Extension 'SlpConfig' version '10.0.1766.0' loaded
+2020-01-27 22:50:13 Slp: Loading extension 'Clst' from file 'c:\Program Files\Microsoft SQL Server\100\Setup Bootstrap\Release\x64\.\Microsoft.SqlServer.Configuration.Cluster.dll'
+2020-01-27 22:50:13 Slp: Extension 'Clst' version '10.0.1794.0' loaded
+2020-01-27 22:50:13 Slp: Loading extension 'AgentConfig' from file 'c:\Program Files\Microsoft SQL Server\100\Setup Bootstrap\Release\x64\.\Microsoft.SqlServer.Configuration.AgentExtension.dll'
+2020-01-27 22:50:13 Slp: Extension 'AgentConfig' version '10.0.1766.0' loaded
+2020-01-27 22:50:13 Slp: Loading extension 'SqlPowershellConfig' from file 'c:\Program Files\Microsoft SQL Server\100\Setup Bootstrap\Release\x64\.\Microsoft.SqlServer.Configuration.PowershellExtension.dll'
+2020-01-27 22:50:13 Slp: Extension 'SqlPowershellConfig' version '10.0.1766.0' loaded
+2020-01-27 22:50:13 Slp: Loading extension 'SSISConfig' from file 'c:\Program Files\Microsoft SQL Server\100\Setup Bootstrap\Release\x64\.\Microsoft.SqlServer.Configuration.SSISExtension.dll'
+2020-01-27 22:50:13 Slp: Extension 'SSISConfig' version '10.0.1766.0' loaded
+2020-01-27 22:50:13 Slp: Loading extension 'ASConfig' from file 'c:\Program Files\Microsoft SQL Server\100\Setup Bootstrap\Release\x64\.\Microsoft.SqlServer.Configuration.ASExtension.dll'
+2020-01-27 22:50:13 Slp: Extension 'ASConfig' version '10.0.1766.0' loaded
+2020-01-27 22:50:13 Slp: Loading extension 'ReplConfig' from file 'c:\Program Files\Microsoft SQL Server\100\Setup Bootstrap\Release\x64\.\Microsoft.SqlServer.Configuration.Repl_ConfigExtension.dll'
+2020-01-27 22:50:14 Slp: Extension 'ReplConfig' version '10.0.1766.0' loaded
+2020-01-27 22:50:14 Slp: Loading extension 'ManagementToolsConfig' from file 'c:\Program Files\Microsoft SQL Server\100\Setup Bootstrap\Release\x64\.\Microsoft.SqlServer.Configuration.ManagementToolsExtension.dll'
+2020-01-27 22:50:14 Slp: Extension 'ManagementToolsConfig' version '10.0.1766.0' loaded
+2020-01-27 22:50:14 Slp: Loading extension 'ManagementToolsAdvancedConfig' from file 'c:\Program Files\Microsoft SQL Server\100\Setup Bootstrap\Release\x64\.\Microsoft.SqlServer.Configuration.ManagementToolsExtension.dll'
+2020-01-27 22:50:14 Slp: Extension 'ManagementToolsAdvancedConfig' version '10.0.1766.0' loaded
+2020-01-27 22:50:14 Slp: Loading extension 'UI' from file 'c:\Program Files\Microsoft SQL Server\100\Setup Bootstrap\Release\x64\.\Microsoft.SqlServer.Configuration.UIExtension.dll'
+2020-01-27 22:50:14 Slp: Extension 'UI' version '10.0.1766.0' loaded
+2020-01-27 22:50:14 Slp: Loading extension 'SqlEngineConfig' from file 'c:\Program Files\Microsoft SQL Server\100\Setup Bootstrap\Release\x64\.\Microsoft.SqlServer.Configuration.SqlServer_ConfigExtension.dll'
+2020-01-27 22:50:14 Slp: Extension 'SqlEngineConfig' version '10.0.1766.0' loaded
+2020-01-27 22:50:14 Slp: Loading extension 'SniServerConfigExt' from file 'c:\Program Files\Microsoft SQL Server\100\Setup Bootstrap\Release\x64\.\Microsoft.SqlServer.Configuration.SniServerConfigExt.dll'
+2020-01-27 22:50:14 Slp: Extension 'SniServerConfigExt' version '10.0.1766.0' loaded
+2020-01-27 22:50:14 Slp: Loading extension 'SqlBrowserConfig' from file 'c:\Program Files\Microsoft SQL Server\100\Setup Bootstrap\Release\x64\.\Microsoft.SqlServer.Configuration.SqlBrowserExtension.dll'
+2020-01-27 22:50:14 Slp: Extension 'SqlBrowserConfig' version '10.0.1766.0' loaded
+2020-01-27 22:50:14 Slp: Loading extension 'SqlRSConfig' from file 'c:\Program Files\Microsoft SQL Server\100\Setup Bootstrap\Release\x64\.\Microsoft.SqlServer.Configuration.RSExtension.dll'
+2020-01-27 22:50:14 Slp: Extension 'SqlRSConfig' version '10.0.1766.0' loaded
+2020-01-27 22:50:14 Slp: Loading extension 'FulltextConfig' from file 'c:\Program Files\Microsoft SQL Server\100\Setup Bootstrap\Release\x64\.\Microsoft.SqlServer.Configuration.Fulltext_ConfigExtension.dll'
+2020-01-27 22:50:14 Slp: Extension 'FulltextConfig' version '10.0.1766.0' loaded
+2020-01-27 22:50:14 Slp: Completed Action: LoadExtensions, returned True
+2020-01-27 22:50:14 Slp: ----------------------------------------------------------------------
+2020-01-27 22:50:14 Slp: Running Action: LoadPackageDatastoreObjects
+2020-01-27 22:50:14 Slp: Reading schema resource 'Microsoft.SqlServer.Configuration.SetupExtension.SlpChainerInputSettings.xsd'
+2020-01-27 22:50:14 Slp: Reading XML resource 'Microsoft.SqlServer.Configuration.SetupExtension.SlpChainerInputSettingsDefaults.xml'
+2020-01-27 22:50:14 Slp: Document 'Microsoft.SqlServer.Configuration.SetupExtension.SlpChainerInputSettingsDefaults.xml' validated with schema 'Microsoft.SqlServer.Configuration.SetupExtension.SlpChainerInputSettings.xsd' loaded into datastore path '/Datastore/InputSettings/ChainerSettings/SlpSettings'
+2020-01-27 22:50:14 Slp: Reading schema resource 'Microsoft.SqlServer.Configuration.SetupExtension.SlpFeatureInputSettings.xsd'
+2020-01-27 22:50:14 Slp: Reading XML resource 'Microsoft.SqlServer.Configuration.SetupExtension.SlpFeatureInputSettingDefaults.xml'
+2020-01-27 22:50:14 Slp: Document 'Microsoft.SqlServer.Configuration.SetupExtension.SlpFeatureInputSettingDefaults.xml' validated with schema 'Microsoft.SqlServer.Configuration.SetupExtension.SlpFeatureInputSettings.xsd' loaded into datastore path '/Datastore/InputSettings/FeatureSpecific/SlpInputSettings'
+2020-01-27 22:50:14 Slp: Reading schema resource 'Microsoft.SqlServer.Configuration.SetupExtension.InputSettingInstanceName.xsd'
+2020-01-27 22:50:14 Slp: Reading XML resource 'Microsoft.SqlServer.Configuration.SetupExtension.InputSettingInstanceNameDefault.xml'
+2020-01-27 22:50:14 Slp: Document 'Microsoft.SqlServer.Configuration.SetupExtension.InputSettingInstanceNameDefault.xml' validated with schema 'Microsoft.SqlServer.Configuration.SetupExtension.InputSettingInstanceName.xsd' loaded into datastore path '/Datastore/InputSettings/FeatureSpecific/InstanceName'
+2020-01-27 22:50:14 Slp: Reading schema resource 'Microsoft.SqlServer.Configuration.SetupExtension.SqlInstanceIdPrivateConfigObject.xsd'
+2020-01-27 22:50:14 Slp: Reading XML resource 'Microsoft.SqlServer.Configuration.SetupExtension.SqlInstanceIdPrivateDefaultSettings.xml'
+2020-01-27 22:50:14 Slp: Document 'Microsoft.SqlServer.Configuration.SetupExtension.SqlInstanceIdPrivateDefaultSettings.xml' validated with schema 'Microsoft.SqlServer.Configuration.SetupExtension.SqlInstanceIdPrivateConfigObject.xsd' loaded into datastore path '/Datastore/ProductSettings/SqlInstanceId/Private'
+2020-01-27 22:50:14 Slp: Reading schema resource 'Microsoft.SqlServer.Configuration.SetupExtension.AsInstanceIdPrivateConfigObject.xsd'
+2020-01-27 22:50:14 Slp: Reading XML resource 'Microsoft.SqlServer.Configuration.SetupExtension.AsInstanceIdPrivateDefaultSettings.xml'
+2020-01-27 22:50:14 Slp: Document 'Microsoft.SqlServer.Configuration.SetupExtension.AsInstanceIdPrivateDefaultSettings.xml' validated with schema 'Microsoft.SqlServer.Configuration.SetupExtension.AsInstanceIdPrivateConfigObject.xsd' loaded into datastore path '/Datastore/ProductSettings/AsInstanceId/Private'
+2020-01-27 22:50:14 Slp: Reading schema resource 'Microsoft.SqlServer.Configuration.SetupExtension.RsInstanceIdPrivateConfigObject.xsd'
+2020-01-27 22:50:14 Slp: Reading XML resource 'Microsoft.SqlServer.Configuration.SetupExtension.RsInstanceIdPrivateDefaultSettings.xml'
+2020-01-27 22:50:14 Slp: Document 'Microsoft.SqlServer.Configuration.SetupExtension.RsInstanceIdPrivateDefaultSettings.xml' validated with schema 'Microsoft.SqlServer.Configuration.SetupExtension.RsInstanceIdPrivateConfigObject.xsd' loaded into datastore path '/Datastore/ProductSettings/RsInstanceId/Private'
+2020-01-27 22:50:14 Slp: Reading schema resource 'Microsoft.SqlServer.Configuration.SetupExtension.InstanceIdPublicConfigObject.xsd'
+2020-01-27 22:50:14 Slp: Reading XML resource 'Microsoft.SqlServer.Configuration.SetupExtension.InstanceIdPublicDefaultSettings.xml'
+2020-01-27 22:50:14 Slp: Document 'Microsoft.SqlServer.Configuration.SetupExtension.InstanceIdPublicDefaultSettings.xml' validated with schema 'Microsoft.SqlServer.Configuration.SetupExtension.InstanceIdPublicConfigObject.xsd' loaded into datastore path '/Datastore/ProductSettings/InstanceId/Public'
+2020-01-27 22:50:14 Slp: Reading schema resource 'Microsoft.SqlServer.Configuration.SlpExtension.SlpPublicSettings.xsd'
+2020-01-27 22:50:14 Slp: Reading XML resource 'Microsoft.SqlServer.Configuration.SlpExtension.SlpPublicDefaultSettings.xml'
+2020-01-27 22:50:14 Slp: Document 'Microsoft.SqlServer.Configuration.SlpExtension.SlpPublicDefaultSettings.xml' validated with schema 'Microsoft.SqlServer.Configuration.SlpExtension.SlpPublicSettings.xsd' loaded into datastore path '/Datastore/ProductSettings/Slp/Public'
+2020-01-27 22:50:14 Slp: Reading schema resource 'Microsoft.SqlServer.Configuration.SlpExtension.SlpPrivateSettings.xsd'
+2020-01-27 22:50:14 Slp: Reading XML resource 'Microsoft.SqlServer.Configuration.SlpExtension.SlpPrivateDefaultSettings.xml'
+2020-01-27 22:50:14 Slp: Document 'Microsoft.SqlServer.Configuration.SlpExtension.SlpPrivateDefaultSettings.xml' validated with schema 'Microsoft.SqlServer.Configuration.SlpExtension.SlpPrivateSettings.xsd' loaded into datastore path '/Datastore/ProductSettings/Slp/Private'
+2020-01-27 22:50:14 Slp: Reading schema resource 'Microsoft.SqlServer.Configuration.SlpExtension.SqlLegacyDiscoveryPublicSettings.xsd'
+2020-01-27 22:50:14 Slp: Reading XML resource 'Microsoft.SqlServer.Configuration.SlpExtension.SqlLegacyDiscoveryPublicSettings.xml'
+2020-01-27 22:50:14 Slp: Document 'Microsoft.SqlServer.Configuration.SlpExtension.SqlLegacyDiscoveryPublicSettings.xml' validated with schema 'Microsoft.SqlServer.Configuration.SlpExtension.SqlLegacyDiscoveryPublicSettings.xsd' loaded into datastore path '/Datastore/ProductSettings/SqlLegacyDiscovery/Public'
+2020-01-27 22:50:14 Slp: Reading schema resource 'Microsoft.SqlServer.Configuration.SlpExtension.SqlLegacyDiscoveryPrivateSettings.xsd'
+2020-01-27 22:50:14 Slp: Reading XML resource 'Microsoft.SqlServer.Configuration.SlpExtension.SqlLegacyDiscoveryPrivateSettings.xml'
+2020-01-27 22:50:14 Slp: Document 'Microsoft.SqlServer.Configuration.SlpExtension.SqlLegacyDiscoveryPrivateSettings.xml' validated with schema 'Microsoft.SqlServer.Configuration.SlpExtension.SqlLegacyDiscoveryPrivateSettings.xsd' loaded into datastore path '/Datastore/ProductSettings/SqlLegacyDiscovery/Private'
+2020-01-27 22:50:14 Slp: Reading schema resource 'Microsoft.SqlServer.Configuration.SetupExtension.SlpDumperPrivateConfig.xsd'
+2020-01-27 22:50:14 Slp: Reading XML resource 'Microsoft.SqlServer.Configuration.SetupExtension.SlpDumperPrivateConfigDefault.xml'
+2020-01-27 22:50:14 Slp: Document 'Microsoft.SqlServer.Configuration.SetupExtension.SlpDumperPrivateConfigDefault.xml' validated with schema 'Microsoft.SqlServer.Configuration.SetupExtension.SlpDumperPrivateConfig.xsd' loaded into datastore path '/Datastore/ProductSettings/SlpDumper/Private'
+2020-01-27 22:50:14 Slp: Reading schema resource 'Microsoft.SqlServer.Configuration.SetupExtension.SqlDumperPrivateConfig.xsd'
+2020-01-27 22:50:14 Slp: Reading XML resource 'Microsoft.SqlServer.Configuration.SetupExtension.SqlDumperPrivateConfigDefault.xml'
+2020-01-27 22:50:14 Slp: Document 'Microsoft.SqlServer.Configuration.SetupExtension.SqlDumperPrivateConfigDefault.xml' validated with schema 'Microsoft.SqlServer.Configuration.SetupExtension.SqlDumperPrivateConfig.xsd' loaded into datastore path '/Datastore/ProductSettings/SqlEngineDumper/Private'
+2020-01-27 22:50:14 Slp: Reading schema resource 'Microsoft.SqlServer.Configuration.SetupExtension.AsDumperPrivateConfig.xsd'
+2020-01-27 22:50:14 Slp: Reading XML resource 'Microsoft.SqlServer.Configuration.SetupExtension.AsDumperPrivateConfigDefault.xml'
+2020-01-27 22:50:14 Slp: Document 'Microsoft.SqlServer.Configuration.SetupExtension.AsDumperPrivateConfigDefault.xml' validated with schema 'Microsoft.SqlServer.Configuration.SetupExtension.AsDumperPrivateConfig.xsd' loaded into datastore path '/Datastore/ProductSettings/AsDumper/Private'
+2020-01-27 22:50:14 Slp: Reading schema resource 'Microsoft.SqlServer.Configuration.SetupExtension.RsDumperPrivateConfig.xsd'
+2020-01-27 22:50:14 Slp: Reading XML resource 'Microsoft.SqlServer.Configuration.SetupExtension.RsDumperPrivateConfigDefault.xml'
+2020-01-27 22:50:14 Slp: Document 'Microsoft.SqlServer.Configuration.SetupExtension.RsDumperPrivateConfigDefault.xml' validated with schema 'Microsoft.SqlServer.Configuration.SetupExtension.RsDumperPrivateConfig.xsd' loaded into datastore path '/Datastore/InputSettings/RsDumper/Private'
+2020-01-27 22:50:14 Slp: Reading schema resource 'Microsoft.SqlServer.Configuration.AgentExtension.AgentPublicSettings.xsd'
+2020-01-27 22:50:14 Slp: Reading XML resource 'Microsoft.SqlServer.Configuration.AgentExtension.AgentPublicDefaultSettings.xml'
+2020-01-27 22:50:14 Slp: Document 'Microsoft.SqlServer.Configuration.AgentExtension.AgentPublicDefaultSettings.xml' validated with schema 'Microsoft.SqlServer.Configuration.AgentExtension.AgentPublicSettings.xsd' loaded into datastore path '/Datastore/ProductSettings/Agent/Public'
+2020-01-27 22:50:14 Slp: Reading schema resource 'Microsoft.SqlServer.Configuration.AgentExtension.AgentPrivateSettings.xsd'
+2020-01-27 22:50:14 Slp: Reading XML resource 'Microsoft.SqlServer.Configuration.AgentExtension.AgentPrivateDefaultSettings.xml'
+2020-01-27 22:50:14 Slp: Document 'Microsoft.SqlServer.Configuration.AgentExtension.AgentPrivateDefaultSettings.xml' validated with schema 'Microsoft.SqlServer.Configuration.AgentExtension.AgentPrivateSettings.xsd' loaded into datastore path '/Datastore/ProductSettings/Agent/Private'
+2020-01-27 22:50:14 Slp: Reading schema resource 'Microsoft.SqlServer.Configuration.AgentExtension.AgentPrivateSettings.xsd'
+2020-01-27 22:50:14 Slp: Reading XML resource 'Microsoft.SqlServer.Configuration.AgentExtension.AgentScriptPrivateDefaultSettings.xml'
+2020-01-27 22:50:14 Slp: Document 'Microsoft.SqlServer.Configuration.AgentExtension.AgentScriptPrivateDefaultSettings.xml' validated with schema 'Microsoft.SqlServer.Configuration.AgentExtension.AgentPrivateSettings.xsd' loaded into datastore path '/Datastore/ProductSettings/AgentScript/Private'
+2020-01-27 22:50:14 Slp: Reading schema resource 'Microsoft.SqlServer.Configuration.SSISExtension.SSISPublicSettings.xsd'
+2020-01-27 22:50:14 Slp: Reading XML resource 'Microsoft.SqlServer.Configuration.SSISExtension.SSISPublicDefaultSettings.xml'
+2020-01-27 22:50:14 Slp: Document 'Microsoft.SqlServer.Configuration.SSISExtension.SSISPublicDefaultSettings.xml' validated with schema 'Microsoft.SqlServer.Configuration.SSISExtension.SSISPublicSettings.xsd' loaded into datastore path '/Datastore/ProductSettings/SSIS/Public'
+2020-01-27 22:50:14 Slp: Reading schema resource 'Microsoft.SqlServer.Configuration.SSISExtension.SSISPrivateSettings.xsd'
+2020-01-27 22:50:14 Slp: Reading XML resource 'Microsoft.SqlServer.Configuration.SSISExtension.SSISPrivateDefaultSettings.xml'
+2020-01-27 22:50:14 Slp: Document 'Microsoft.SqlServer.Configuration.SSISExtension.SSISPrivateDefaultSettings.xml' validated with schema 'Microsoft.SqlServer.Configuration.SSISExtension.SSISPrivateSettings.xsd' loaded into datastore path '/Datastore/ProductSettings/SSIS/Private'
+2020-01-27 22:50:14 Slp: Reading schema resource 'Microsoft.SqlServer.Configuration.SSISExtension.VSTAPrivateSettings.xsd'
+2020-01-27 22:50:14 Slp: Reading XML resource 'Microsoft.SqlServer.Configuration.SSISExtension.VSTAPrivateSettings.xml'
+2020-01-27 22:50:14 Slp: Document 'Microsoft.SqlServer.Configuration.SSISExtension.VSTAPrivateSettings.xml' validated with schema 'Microsoft.SqlServer.Configuration.SSISExtension.VSTAPrivateSettings.xsd' loaded into datastore path '/Datastore/ProductSettings/SSIS/VSTA/Private'
+2020-01-27 22:50:14 Slp: Reading schema resource 'Microsoft.SqlServer.Configuration.PowershellExtension.PowershellPublicSettings.xsd'
+2020-01-27 22:50:14 Slp: Reading XML resource 'Microsoft.SqlServer.Configuration.PowershellExtension.PowershellPublicDefaultSettings.xml'
+2020-01-27 22:50:14 Slp: Document 'Microsoft.SqlServer.Configuration.PowershellExtension.PowershellPublicDefaultSettings.xml' validated with schema 'Microsoft.SqlServer.Configuration.PowershellExtension.PowershellPublicSettings.xsd' loaded into datastore path '/Datastore/ProductSettings/SqlPowershell/Public'
+2020-01-27 22:50:14 Slp: Reading schema resource 'Microsoft.SqlServer.Configuration.PowershellExtension.PowershellPrivateSettings.xsd'
+2020-01-27 22:50:14 Slp: Reading XML resource 'Microsoft.SqlServer.Configuration.PowershellExtension.PowershellPrivateDefaultSettings.xml'
+2020-01-27 22:50:14 Slp: Document 'Microsoft.SqlServer.Configuration.PowershellExtension.PowershellPrivateDefaultSettings.xml' validated with schema 'Microsoft.SqlServer.Configuration.PowershellExtension.PowershellPrivateSettings.xsd' loaded into datastore path '/Datastore/ProductSettings/SqlPowershell/Private'
+2020-01-27 22:50:14 Slp: Reading schema resource 'Microsoft.SqlServer.Configuration.ASExtension.ASPublicSettings.xsd'
+2020-01-27 22:50:14 Slp: Reading XML resource 'Microsoft.SqlServer.Configuration.ASExtension.ASPublicDefaultSettings.xml'
+2020-01-27 22:50:14 Slp: Document 'Microsoft.SqlServer.Configuration.ASExtension.ASPublicDefaultSettings.xml' validated with schema 'Microsoft.SqlServer.Configuration.ASExtension.ASPublicSettings.xsd' loaded into datastore path '/Datastore/ProductSettings/AS/Public'
+2020-01-27 22:50:14 Slp: Reading schema resource 'Microsoft.SqlServer.Configuration.ASExtension.ASPrivateSettings.xsd'
+2020-01-27 22:50:14 Slp: Reading XML resource 'Microsoft.SqlServer.Configuration.ASExtension.ASPrivateDefaultSettings.xml'
+2020-01-27 22:50:14 Slp: Document 'Microsoft.SqlServer.Configuration.ASExtension.ASPrivateDefaultSettings.xml' validated with schema 'Microsoft.SqlServer.Configuration.ASExtension.ASPrivateSettings.xsd' loaded into datastore path '/Datastore/ProductSettings/AS/Private'
+2020-01-27 22:50:14 Slp: Reading schema resource 'Microsoft.SqlServer.Configuration.SqlServer_ConfigExtension.SqlEnginePublicSettings.xsd'
+2020-01-27 22:50:14 Slp: Reading XML resource 'Microsoft.SqlServer.Configuration.SqlServer_ConfigExtension.SqlEnginePublicDefaultSettings.xml'
+2020-01-27 22:50:14 Slp: Document 'Microsoft.SqlServer.Configuration.SqlServer_ConfigExtension.SqlEnginePublicDefaultSettings.xml' validated with schema 'Microsoft.SqlServer.Configuration.SqlServer_ConfigExtension.SqlEnginePublicSettings.xsd' loaded into datastore path '/Datastore/ProductSettings/SqlEngine/Public'
+2020-01-27 22:50:14 Slp: Reading schema resource 'Microsoft.SqlServer.Configuration.Repl_ConfigExtension.ReplPublicSettings.xsd'
+2020-01-27 22:50:14 Slp: Reading XML resource 'Microsoft.SqlServer.Configuration.Repl_ConfigExtension.ReplPublicDefaultSettings.xml'
+2020-01-27 22:50:14 Slp: Document 'Microsoft.SqlServer.Configuration.Repl_ConfigExtension.ReplPublicDefaultSettings.xml' validated with schema 'Microsoft.SqlServer.Configuration.Repl_ConfigExtension.ReplPublicSettings.xsd' loaded into datastore path '/Datastore/ProductSettings/Repl/Public'
+2020-01-27 22:50:14 Slp: Reading schema resource 'Microsoft.SqlServer.Configuration.SqlServer_ConfigExtension.SqlEnginePrivateSettings.xsd'
+2020-01-27 22:50:14 Slp: Reading XML resource 'Microsoft.SqlServer.Configuration.SqlServer_ConfigExtension.SqlEnginePrivateDefaultSettings.xml'
+2020-01-27 22:50:14 Slp: Document 'Microsoft.SqlServer.Configuration.SqlServer_ConfigExtension.SqlEnginePrivateDefaultSettings.xml' validated with schema 'Microsoft.SqlServer.Configuration.SqlServer_ConfigExtension.SqlEnginePrivateSettings.xsd' loaded into datastore path '/Datastore/ProductSettings/SqlEngine/Private'
+2020-01-27 22:50:14 Slp: Reading schema resource 'Microsoft.SqlServer.Configuration.Fulltext_ConfigExtension.FulltextPublicSettings.xsd'
+2020-01-27 22:50:14 Slp: Reading XML resource 'Microsoft.SqlServer.Configuration.Fulltext_ConfigExtension.FulltextPublicDefaultSettings.xml'
+2020-01-27 22:50:14 Slp: Document 'Microsoft.SqlServer.Configuration.Fulltext_ConfigExtension.FulltextPublicDefaultSettings.xml' validated with schema 'Microsoft.SqlServer.Configuration.Fulltext_ConfigExtension.FulltextPublicSettings.xsd' loaded into datastore path '/Datastore/ProductSettings/Fulltext/Public'
+2020-01-27 22:50:14 Slp: Reading schema resource 'Microsoft.SqlServer.Configuration.Fulltext_ConfigExtension.FulltextPrivateSettings.xsd'
+2020-01-27 22:50:14 Slp: Reading XML resource 'Microsoft.SqlServer.Configuration.Fulltext_ConfigExtension.FulltextPrivateDefaultSettings.xml'
+2020-01-27 22:50:14 Slp: Document 'Microsoft.SqlServer.Configuration.Fulltext_ConfigExtension.FulltextPrivateDefaultSettings.xml' validated with schema 'Microsoft.SqlServer.Configuration.Fulltext_ConfigExtension.FulltextPrivateSettings.xsd' loaded into datastore path '/Datastore/ProductSettings/Fulltext/Private'
+2020-01-27 22:50:14 Slp: Reading schema resource 'Microsoft.SqlServer.Configuration.SniServer.SniServerConfigExt_PrivateSettings.xsd'
+2020-01-27 22:50:14 Slp: Reading XML resource 'Microsoft.SqlServer.Configuration.SniServer.SniServerConfigExt_PrivateDefaultSettings.xml'
+2020-01-27 22:50:14 Slp: Document 'Microsoft.SqlServer.Configuration.SniServer.SniServerConfigExt_PrivateDefaultSettings.xml' validated with schema 'Microsoft.SqlServer.Configuration.SniServer.SniServerConfigExt_PrivateSettings.xsd' loaded into datastore path '/Datastore/ProductSettings/SniServer/Private'
+2020-01-27 22:50:14 Slp: Reading schema resource 'Microsoft.SqlServer.Configuration.SniServer.SniServerConfigExt_PublicSettings.xsd'
+2020-01-27 22:50:14 Slp: Reading XML resource 'Microsoft.SqlServer.Configuration.SniServer.SniServerConfigExt_PublicDefaultSettings.xml'
+2020-01-27 22:50:14 Slp: Document 'Microsoft.SqlServer.Configuration.SniServer.SniServerConfigExt_PublicDefaultSettings.xml' validated with schema 'Microsoft.SqlServer.Configuration.SniServer.SniServerConfigExt_PublicSettings.xsd' loaded into datastore path '/Datastore/ProductSettings/SniServer/Public'
+2020-01-27 22:50:14 Slp: Reading schema resource 'Microsoft.SqlServer.Configuration.SqlBrowserExtension.sqlBrowserPublicConfig.xsd'
+2020-01-27 22:50:14 Slp: Reading XML resource 'Microsoft.SqlServer.Configuration.SqlBrowserExtension.sqlBrowserPublicConfig.xml'
+2020-01-27 22:50:14 Slp: Document 'Microsoft.SqlServer.Configuration.SqlBrowserExtension.sqlBrowserPublicConfig.xml' validated with schema 'Microsoft.SqlServer.Configuration.SqlBrowserExtension.sqlBrowserPublicConfig.xsd' loaded into datastore path '/Datastore/ProductSettings/SqlBrowser/Public'
+2020-01-27 22:50:14 Slp: Reading schema resource 'Microsoft.SqlServer.Configuration.SqlBrowserExtension.sqlBrowserPrivateConfig.xsd'
+2020-01-27 22:50:14 Slp: Reading XML resource 'Microsoft.SqlServer.Configuration.SqlBrowserExtension.sqlBrowserPrivateConfig.xml'
+2020-01-27 22:50:14 Slp: Document 'Microsoft.SqlServer.Configuration.SqlBrowserExtension.sqlBrowserPrivateConfig.xml' validated with schema 'Microsoft.SqlServer.Configuration.SqlBrowserExtension.sqlBrowserPrivateConfig.xsd' loaded into datastore path '/Datastore/ProductSettings/SqlBrowser/Private'
+2020-01-27 22:50:14 Slp: Reading schema resource 'Microsoft.SqlServer.Configuration.SqlBrowserExtension.sqlBrowserStopServicePrivateConfig.xsd'
+2020-01-27 22:50:14 Slp: Reading XML resource 'Microsoft.SqlServer.Configuration.SqlBrowserExtension.sqlBrowserStopServicePrivateConfig.xml'
+2020-01-27 22:50:14 Slp: Document 'Microsoft.SqlServer.Configuration.SqlBrowserExtension.sqlBrowserStopServicePrivateConfig.xml' validated with schema 'Microsoft.SqlServer.Configuration.SqlBrowserExtension.sqlBrowserStopServicePrivateConfig.xsd' loaded into datastore path '/Datastore/ProductSettings/SqlBrowserStopService/Private'
+2020-01-27 22:50:14 Slp: Reading schema resource 'Microsoft.SqlServer.Configuration.SetupExtension.SkuPublicConfigObject.xsd'
+2020-01-27 22:50:14 Slp: Reading XML resource 'Microsoft.SqlServer.Configuration.SetupExtension.SkuPublicConfigObjectDefault.xml'
+2020-01-27 22:50:14 Slp: Document 'Microsoft.SqlServer.Configuration.SetupExtension.SkuPublicConfigObjectDefault.xml' validated with schema 'Microsoft.SqlServer.Configuration.SetupExtension.SkuPublicConfigObject.xsd' loaded into datastore path '/Datastore/ProductSettings/Sku/Public'
+2020-01-27 22:50:14 Slp: Reading schema resource 'Microsoft.SqlServer.Configuration.SetupExtension.SkuPrivateConfigObject.xsd'
+2020-01-27 22:50:14 Slp: Reading XML resource 'Microsoft.SqlServer.Configuration.SetupExtension.SkuPrivateConfigObjectDefault.xml'
+2020-01-27 22:50:14 Slp: Document 'Microsoft.SqlServer.Configuration.SetupExtension.SkuPrivateConfigObjectDefault.xml' validated with schema 'Microsoft.SqlServer.Configuration.SetupExtension.SkuPrivateConfigObject.xsd' loaded into datastore path '/Datastore/ProductSettings/Sku/Private'
+2020-01-27 22:50:14 Slp: Reading schema resource 'Microsoft.SqlServer.Configuration.SetupExtension.PidPublicConfigObject.xsd'
+2020-01-27 22:50:14 Slp: Reading XML resource 'Microsoft.SqlServer.Configuration.SetupExtension.PidPublicConfigObjectDefault.xml'
+2020-01-27 22:50:14 Slp: Document 'Microsoft.SqlServer.Configuration.SetupExtension.PidPublicConfigObjectDefault.xml' validated with schema 'Microsoft.SqlServer.Configuration.SetupExtension.PidPublicConfigObject.xsd' loaded into datastore path '/Datastore/ProductSettings/Pid/Public'
+2020-01-27 22:50:14 Slp: Reading schema resource 'Microsoft.SqlServer.Configuration.SetupExtension.PidPrivateConfigObject.xsd'
+2020-01-27 22:50:14 Slp: Reading XML resource 'Microsoft.SqlServer.Configuration.SetupExtension.PidPrivateConfigObjectDefault.xml'
+2020-01-27 22:50:14 Slp: Document 'Microsoft.SqlServer.Configuration.SetupExtension.PidPrivateConfigObjectDefault.xml' validated with schema 'Microsoft.SqlServer.Configuration.SetupExtension.PidPrivateConfigObject.xsd' loaded into datastore path '/Datastore/ProductSettings/Pid/Private'
+2020-01-27 22:50:14 Slp: Reading schema resource 'Microsoft.SqlServer.Configuration.Repl_ConfigExtension.ReplPrivateSettings.xsd'
+2020-01-27 22:50:14 Slp: Reading XML resource 'Microsoft.SqlServer.Configuration.Repl_ConfigExtension.ReplPrivateDefaultSettings.xml'
+2020-01-27 22:50:14 Slp: Document 'Microsoft.SqlServer.Configuration.Repl_ConfigExtension.ReplPrivateDefaultSettings.xml' validated with schema 'Microsoft.SqlServer.Configuration.Repl_ConfigExtension.ReplPrivateSettings.xsd' loaded into datastore path '/Datastore/ProductSettings/Repl/Private'
+2020-01-27 22:50:14 Slp: Reading schema resource 'Microsoft.SqlServer.Configuration.RSExtension.SqlRSConfigPublicDefaultSettings.xsd'
+2020-01-27 22:50:14 Slp: Reading XML resource 'Microsoft.SqlServer.Configuration.RSExtension.SqlRSConfigPublicDefaultSettings.xml'
+2020-01-27 22:50:14 Slp: Document 'Microsoft.SqlServer.Configuration.RSExtension.SqlRSConfigPublicDefaultSettings.xml' validated with schema 'Microsoft.SqlServer.Configuration.RSExtension.SqlRSConfigPublicDefaultSettings.xsd' loaded into datastore path '/Datastore/ProductSettings/SqlRS/Public'
+2020-01-27 22:50:14 Slp: Reading schema resource 'Microsoft.SqlServer.Configuration.RSExtension.SqlRSConfigPrivateDefaultSettings.xsd'
+2020-01-27 22:50:14 Slp: Reading XML resource 'Microsoft.SqlServer.Configuration.RSExtension.SqlRSConfigPrivateDefaultSettings.xml'
+2020-01-27 22:50:14 Slp: Document 'Microsoft.SqlServer.Configuration.RSExtension.SqlRSConfigPrivateDefaultSettings.xml' validated with schema 'Microsoft.SqlServer.Configuration.RSExtension.SqlRSConfigPrivateDefaultSettings.xsd' loaded into datastore path '/Datastore/ProductSettings/SqlRS/Private'
+2020-01-27 22:50:14 Slp: Reading schema resource 'Microsoft.SqlServer.Configuration.RSExtension.SqlRSDBConfigPrivateDefaultSettings.xsd'
+2020-01-27 22:50:14 Slp: Reading XML resource 'Microsoft.SqlServer.Configuration.RSExtension.SqlRSDBConfigPrivateDefaultSettings.xml'
+2020-01-27 22:50:14 Slp: Document 'Microsoft.SqlServer.Configuration.RSExtension.SqlRSDBConfigPrivateDefaultSettings.xml' validated with schema 'Microsoft.SqlServer.Configuration.RSExtension.SqlRSDBConfigPrivateDefaultSettings.xsd' loaded into datastore path '/Datastore/ProductSettings/SqlRS/DBPrivate'
+2020-01-27 22:50:14 Slp: Reading schema resource 'Microsoft.SqlServer.Configuration.ManagementToolsExtension.ManagementToolsPublicSettings.xsd'
+2020-01-27 22:50:14 Slp: Reading XML resource 'Microsoft.SqlServer.Configuration.ManagementToolsExtension.ManagementToolsPublicDefaultSettings.xml'
+2020-01-27 22:50:14 Slp: Document 'Microsoft.SqlServer.Configuration.ManagementToolsExtension.ManagementToolsPublicDefaultSettings.xml' validated with schema 'Microsoft.SqlServer.Configuration.ManagementToolsExtension.ManagementToolsPublicSettings.xsd' loaded into datastore path '/Datastore/ProductSettings/ManagementTools/Public'
+2020-01-27 22:50:14 Slp: Reading schema resource 'Microsoft.SqlServer.Configuration.ManagementToolsExtension.ManagementToolsPrivateSettings.xsd'
+2020-01-27 22:50:14 Slp: Reading XML resource 'Microsoft.SqlServer.Configuration.ManagementToolsExtension.ManagementToolsPrivateDefaultSettings.xml'
+2020-01-27 22:50:14 Slp: Document 'Microsoft.SqlServer.Configuration.ManagementToolsExtension.ManagementToolsPrivateDefaultSettings.xml' validated with schema 'Microsoft.SqlServer.Configuration.ManagementToolsExtension.ManagementToolsPrivateSettings.xsd' loaded into datastore path '/Datastore/ProductSettings/ManagementTools/Private'
+2020-01-27 22:50:14 Slp: Reading schema resource 'Microsoft.SqlServer.Configuration.ManagementToolsExtension.ManagementToolsAdvancedPublicSettings.xsd'
+2020-01-27 22:50:14 Slp: Reading XML resource 'Microsoft.SqlServer.Configuration.ManagementToolsExtension.ManagementToolsAdvancedPublicDefaultSettings.xml'
+2020-01-27 22:50:14 Slp: Document 'Microsoft.SqlServer.Configuration.ManagementToolsExtension.ManagementToolsAdvancedPublicDefaultSettings.xml' validated with schema 'Microsoft.SqlServer.Configuration.ManagementToolsExtension.ManagementToolsAdvancedPublicSettings.xsd' loaded into datastore path '/Datastore/ProductSettings/ManagementToolsAdvanced/Public'
+2020-01-27 22:50:14 Slp: Reading schema resource 'Microsoft.SqlServer.Configuration.ManagementToolsExtension.ManagementToolsAdvancedPrivateSettings.xsd'
+2020-01-27 22:50:14 Slp: Reading XML resource 'Microsoft.SqlServer.Configuration.ManagementToolsExtension.ManagementToolsAdvancedPrivateDefaultSettings.xml'
+2020-01-27 22:50:14 Slp: Document 'Microsoft.SqlServer.Configuration.ManagementToolsExtension.ManagementToolsAdvancedPrivateDefaultSettings.xml' validated with schema 'Microsoft.SqlServer.Configuration.ManagementToolsExtension.ManagementToolsAdvancedPrivateSettings.xsd' loaded into datastore path '/Datastore/ProductSettings/ManagementToolsAdvanced/Private'
+2020-01-27 22:50:14 Slp: Reading schema resource 'Microsoft.SqlServer.Configuration.Cluster.ClusterDiskPrivateConfig.xsd'
+2020-01-27 22:50:14 Slp: Reading XML resource 'Microsoft.SqlServer.Configuration.Cluster.ClusterDiskPrivateConfig.xml'
+2020-01-27 22:50:14 Slp: Document 'Microsoft.SqlServer.Configuration.Cluster.ClusterDiskPrivateConfig.xml' validated with schema 'Microsoft.SqlServer.Configuration.Cluster.ClusterDiskPrivateConfig.xsd' loaded into datastore path '/Datastore/ProductSettings/ClusterDisk/Private'
+2020-01-27 22:50:14 Slp: Reading schema resource 'Microsoft.SqlServer.Configuration.Cluster.ClusterDiskPublicConfig.xsd'
+2020-01-27 22:50:14 Slp: Reading XML resource 'Microsoft.SqlServer.Configuration.Cluster.ClusterDiskPublicConfig.xml'
+2020-01-27 22:50:14 Slp: Document 'Microsoft.SqlServer.Configuration.Cluster.ClusterDiskPublicConfig.xml' validated with schema 'Microsoft.SqlServer.Configuration.Cluster.ClusterDiskPublicConfig.xsd' loaded into datastore path '/Datastore/ProductSettings/ClusterDisk/Public'
+2020-01-27 22:50:14 Slp: Reading schema resource 'Microsoft.SqlServer.Configuration.Cluster.ClusterGroupPrivateConfig.xsd'
+2020-01-27 22:50:14 Slp: Reading XML resource 'Microsoft.SqlServer.Configuration.Cluster.ClusterGroupPrivateConfig.xml'
+2020-01-27 22:50:14 Slp: Document 'Microsoft.SqlServer.Configuration.Cluster.ClusterGroupPrivateConfig.xml' validated with schema 'Microsoft.SqlServer.Configuration.Cluster.ClusterGroupPrivateConfig.xsd' loaded into datastore path '/Datastore/ProductSettings/ClusterGroup/Private'
+2020-01-27 22:50:14 Slp: Reading schema resource 'Microsoft.SqlServer.Configuration.Cluster.ClusterGroupPublicConfig.xsd'
+2020-01-27 22:50:14 Slp: Reading XML resource 'Microsoft.SqlServer.Configuration.Cluster.ClusterGroupPublicConfig.xml'
+2020-01-27 22:50:14 Slp: Document 'Microsoft.SqlServer.Configuration.Cluster.ClusterGroupPublicConfig.xml' validated with schema 'Microsoft.SqlServer.Configuration.Cluster.ClusterGroupPublicConfig.xsd' loaded into datastore path '/Datastore/ProductSettings/ClusterGroup/Public'
+2020-01-27 22:50:14 Slp: Reading schema resource 'Microsoft.SqlServer.Configuration.Cluster.ClusterIPAddressPrivateConfig.xsd'
+2020-01-27 22:50:14 Slp: Reading XML resource 'Microsoft.SqlServer.Configuration.Cluster.ClusterIPAddressPrivateConfig.xml'
+2020-01-27 22:50:14 Slp: Document 'Microsoft.SqlServer.Configuration.Cluster.ClusterIPAddressPrivateConfig.xml' validated with schema 'Microsoft.SqlServer.Configuration.Cluster.ClusterIPAddressPrivateConfig.xsd' loaded into datastore path '/Datastore/ProductSettings/ClusterIPAddresses/Private'
+2020-01-27 22:50:14 Slp: Reading schema resource 'Microsoft.SqlServer.Configuration.Cluster.ClusterIPAddressPublicConfig.xsd'
+2020-01-27 22:50:14 Slp: Reading XML resource 'Microsoft.SqlServer.Configuration.Cluster.ClusterIPAddressPublicConfig.xml'
+2020-01-27 22:50:14 Slp: Document 'Microsoft.SqlServer.Configuration.Cluster.ClusterIPAddressPublicConfig.xml' validated with schema 'Microsoft.SqlServer.Configuration.Cluster.ClusterIPAddressPublicConfig.xsd' loaded into datastore path '/Datastore/ProductSettings/ClusterIPAddresses/Public'
+2020-01-27 22:50:14 Slp: Reading schema resource 'Microsoft.SqlServer.Configuration.Cluster.FailoverInstanceNamePrivateConfig.xsd'
+2020-01-27 22:50:14 Slp: Reading XML resource 'Microsoft.SqlServer.Configuration.Cluster.FailoverInstanceNamePrivateConfig.xml'
+2020-01-27 22:50:14 Slp: Document 'Microsoft.SqlServer.Configuration.Cluster.FailoverInstanceNamePrivateConfig.xml' validated with schema 'Microsoft.SqlServer.Configuration.Cluster.FailoverInstanceNamePrivateConfig.xsd' loaded into datastore path '/Datastore/ProductSettings/FailOverClusterName/Private'
+2020-01-27 22:50:14 Slp: Reading schema resource 'Microsoft.SqlServer.Configuration.Cluster.FailoverInstanceNamePublicConfig.xsd'
+2020-01-27 22:50:14 Slp: Reading XML resource 'Microsoft.SqlServer.Configuration.Cluster.FailoverInstanceNamePublicConfig.xml'
+2020-01-27 22:50:14 Slp: Document 'Microsoft.SqlServer.Configuration.Cluster.FailoverInstanceNamePublicConfig.xml' validated with schema 'Microsoft.SqlServer.Configuration.Cluster.FailoverInstanceNamePublicConfig.xsd' loaded into datastore path '/Datastore/ProductSettings/FailoverClusterName/Public'
+2020-01-27 22:50:14 Slp: Reading schema resource 'Microsoft.SqlServer.Configuration.Cluster.ClusterNodePrivateConfig.xsd'
+2020-01-27 22:50:14 Slp: Reading XML resource 'Microsoft.SqlServer.Configuration.Cluster.ClusterNodePrivateConfig.xml'
+2020-01-27 22:50:14 Slp: Document 'Microsoft.SqlServer.Configuration.Cluster.ClusterNodePrivateConfig.xml' validated with schema 'Microsoft.SqlServer.Configuration.Cluster.ClusterNodePrivateConfig.xsd' loaded into datastore path '/Datastore/ProductSettings/ClusterNode/Private'
+2020-01-27 22:50:14 Slp: Reading schema resource 'Microsoft.SqlServer.Configuration.Cluster.ClusterNodePublicConfig.xsd'
+2020-01-27 22:50:14 Slp: Reading XML resource 'Microsoft.SqlServer.Configuration.Cluster.ClusterNodePublicConfig.xml'
+2020-01-27 22:50:14 Slp: Document 'Microsoft.SqlServer.Configuration.Cluster.ClusterNodePublicConfig.xml' validated with schema 'Microsoft.SqlServer.Configuration.Cluster.ClusterNodePublicConfig.xsd' loaded into datastore path '/Datastore/ProductSettings/ClusterNode/Public'
+2020-01-27 22:50:14 Slp: Reading schema resource 'Microsoft.SqlServer.Configuration.SlpExtension.SQLServerSCPPrivateSettings.xsd'
+2020-01-27 22:50:14 Slp: Reading XML resource 'Microsoft.SqlServer.Configuration.SlpExtension.SQLServerSCPPrivateSettings.xml'
+2020-01-27 22:50:14 Slp: Document 'Microsoft.SqlServer.Configuration.SlpExtension.SQLServerSCPPrivateSettings.xml' validated with schema 'Microsoft.SqlServer.Configuration.SlpExtension.SQLServerSCPPrivateSettings.xsd' loaded into datastore path '/Datastore/ProductSettings/SQLServerSCP/Private'
+2020-01-27 22:50:14 Slp: Reading XML resource 'Microsoft.SqlServer.Configuration.Cluster.ClusterNodesStatusPublicConfig.xml'
+2020-01-27 22:50:14 Slp: Document 'Microsoft.SqlServer.Configuration.Cluster.ClusterNodesStatusPublicConfig.xml' loaded into datastore path '/Datastore/ProductSettings/ClusterNodesStatus/Public'
+2020-01-27 22:50:14 Slp: Completed Action: LoadPackageDatastoreObjects, returned True
+2020-01-27 22:50:14 Slp: ----------------------------------------------------------------------
+2020-01-27 22:50:14 Slp: Running Action: InitializeInputSettingStore
+2020-01-27 22:50:14 Slp: Completed Action: InitializeInputSettingStore, returned True
+2020-01-27 22:50:14 Slp: ----------------------------------------------------------------------
+2020-01-27 22:50:14 Slp: Running Action: ProcessChainerCommandLineArguments
+2020-01-27 22:50:14 Slp: ----------------------------------------
+2020-01-27 22:50:14 Slp: Setting: ACTION
+2020-01-27 22:50:14 Slp: Value specified: RUNDISCOVERY
+2020-01-27 22:50:14 Slp: New setting source: CommandLine; previous setting source: Default
+2020-01-27 22:50:14 Slp: ----------------------------------------
+2020-01-27 22:50:14 Slp: Setting: WORKFLOW
+2020-01-27 22:50:14 Slp: Value specified: RUNDISCOVERY
+2020-01-27 22:50:14 Slp: New setting source: CommandLine; previous setting source: Default
+2020-01-27 22:50:14 Slp: ----------------------------------------
+2020-01-27 22:50:14 Slp: Setting: TIMESTAMP
+2020-01-27 22:50:14 Slp: Value specified: 20200127_225013
+2020-01-27 22:50:14 Slp: New setting source: CommandLine; previous setting source: Default
+2020-01-27 22:50:14 Slp: ----------------------------------------
+2020-01-27 22:50:14 Slp: Setting: LOGMARKER
+2020-01-27 22:50:14 Slp: Value specified: 
+2020-01-27 22:50:14 Slp: New setting source: CommandLine; previous setting source: Default
+2020-01-27 22:50:14 Slp: ----------------------------------------
+2020-01-27 22:50:14 Slp: Completed Action: ProcessChainerCommandLineArguments, returned True
+2020-01-27 22:50:14 Slp: ----------------------------------------------------------------------
+2020-01-27 22:50:14 Slp: Running Action: ProcessMediaChainerConfigFileArguments
+2020-01-27 22:50:14 Slp: Completed Action: ProcessMediaChainerConfigFileArguments, returned True
+2020-01-27 22:50:14 Slp: ----------------------------------------------------------------------
+2020-01-27 22:50:14 Slp: Running Action: ProcessChainerConfigFileArguments
+2020-01-27 22:50:14 Slp: Completed Action: ProcessChainerConfigFileArguments, returned True
+2020-01-27 22:50:14 Slp: ----------------------------------------------------------------------
+2020-01-27 22:50:14 Slp: Running Action: ValidateChainerSetting
+2020-01-27 22:50:14 Slp: -- PidPublicConfigObject : ValidateSettings is normalizing input pid=[PID value hidden]
+2020-01-27 22:50:14 Slp: -- PidPrivateConfigObject : NormalizePid found null or empty pid
+2020-01-27 22:50:14 Slp: -- PidPublicConfigObject : ValidateSettings proceeding with normalized pid=[PID value hidden]
+2020-01-27 22:50:14 Slp: -- PidPrivateConfigObject : Initialize is initializing using input pid=[PID value hidden]
+2020-01-27 22:50:14 Slp: -- PidPrivateConfigObject : NormalizePid found null or empty pid
+2020-01-27 22:50:14 Slp: -- PidPrivateConfigObject : Initialize proceeding with normalized pid=[PID value hidden]
+2020-01-27 22:50:14 Slp: -- PidPrivateConfigObject : Initialize called ValidatePid, output is pid=[PID value hidden] validateSuccess=True output editionId=EVAL(0x2467BCA1)
+2020-01-27 22:50:14 Slp: -- PidPublicConfigObject : ValidateSettings initialized private object, result is initializeResult=Success
+2020-01-27 22:50:14 Slp: Completed Action: ValidateChainerSetting, returned True
+2020-01-27 22:50:14 Slp: ----------------------------------------------------------------------
+2020-01-27 22:50:14 Slp: Running Action: ProcessFeatureCommandLineArguments
+2020-01-27 22:50:14 Slp: ----------------------------------------
+2020-01-27 22:50:14 Slp: Completed Action: ProcessFeatureCommandLineArguments, returned True
+2020-01-27 22:50:14 Slp: ----------------------------------------------------------------------
+2020-01-27 22:50:14 Slp: Running Action: ProcessMediaFeatureConfigFileArguments
+2020-01-27 22:50:14 Slp: Completed Action: ProcessMediaFeatureConfigFileArguments, returned True
+2020-01-27 22:50:14 Slp: ----------------------------------------------------------------------
+2020-01-27 22:50:14 Slp: Running Action: ProcessFeatureConfigFileArguments
+2020-01-27 22:50:14 Slp: Completed Action: ProcessFeatureConfigFileArguments, returned True
+2020-01-27 22:50:14 Slp: ----------------------------------------------------------------------
+2020-01-27 22:50:14 Slp: Running Action: ValidateSettingsAgainstScenario
+2020-01-27 22:50:14 Slp: Scenario: RunDiscovery
+2020-01-27 22:50:14 Slp: Completed Action: ValidateSettingsAgainstScenario, returned True
+2020-01-27 22:50:14 Slp: ----------------------------------------------------------------------
+2020-01-27 22:50:14 Slp: Running Action: InitializeMsiExtension
+2020-01-27 22:50:14 Slp: SLP: MsiExtension.GetDiskCost: Warning: No matched disk size is detected for feature SQL_Engine_CLS_sql_engine_core_shared_loc_Cpu64_1028 and directory SystemDrive
+2020-01-27 22:50:14 Slp: SLP: MsiExtension.GetDiskCost: Warning: No matched disk size is detected for feature SQL_DMF_CLS_sql_engine_core_shared_loc_Cpu64_1028 and directory SystemDrive
+2020-01-27 22:50:14 Slp: SLP: MsiExtension.GetDiskCost: Warning: No matched disk size is detected for feature SQL_SLP_BASE_CLS_sql_engine_core_shared_loc_Cpu64_1028 and directory SystemDrive
+2020-01-27 22:50:14 Slp: SLP: MsiExtension.GetDiskCost: Warning: No matched disk size is detected for feature SQL_REPL_ENGINE_SUPPORT_FLS_sql_engine_core_shared_loc_Cpu64_1028 and directory INSTALLSHAREDDIR
+2020-01-27 22:50:14 Slp: SLP: MsiExtension.GetDiskCost: Warning: No matched disk size is detected for feature SQL_Replication_CLS_sql_engine_core_shared_loc_Cpu64_1028 and directory SystemDrive
+2020-01-27 22:50:14 Slp: SLP: MsiExtension.GetDiskCost: Warning: No matched disk size is detected for feature SQL_Engine_CLS_sql_engine_core_shared_loc_Cpu64_1033 and directory SystemDrive
+2020-01-27 22:50:14 Slp: SLP: MsiExtension.GetDiskCost: Warning: No matched disk size is detected for feature SQL_DMF_CLS_sql_engine_core_shared_loc_Cpu64_1033 and directory SystemDrive
+2020-01-27 22:50:14 Slp: SLP: MsiExtension.GetDiskCost: Warning: No matched disk size is detected for feature SQL_SLP_BASE_CLS_sql_engine_core_shared_loc_Cpu64_1033 and directory SystemDrive
+2020-01-27 22:50:14 Slp: SLP: MsiExtension.GetDiskCost: Warning: No matched disk size is detected for feature SQL_REPL_ENGINE_SUPPORT_FLS_sql_engine_core_shared_loc_Cpu64_1033 and directory INSTALLSHAREDDIR
+2020-01-27 22:50:14 Slp: SLP: MsiExtension.GetDiskCost: Warning: No matched disk size is detected for feature SQL_Replication_CLS_sql_engine_core_shared_loc_Cpu64_1033 and directory SystemDrive
+2020-01-27 22:50:14 Slp: SLP: MsiExtension.GetDiskCost: Warning: No matched disk size is detected for feature SQL_Engine_CLS_sql_engine_core_shared_loc_Cpu64_1036 and directory SystemDrive
+2020-01-27 22:50:14 Slp: SLP: MsiExtension.GetDiskCost: Warning: No matched disk size is detected for feature SQL_DMF_CLS_sql_engine_core_shared_loc_Cpu64_1036 and directory SystemDrive
+2020-01-27 22:50:14 Slp: SLP: MsiExtension.GetDiskCost: Warning: No matched disk size is detected for feature SQL_SLP_BASE_CLS_sql_engine_core_shared_loc_Cpu64_1036 and directory SystemDrive
+2020-01-27 22:50:14 Slp: SLP: MsiExtension.GetDiskCost: Warning: No matched disk size is detected for feature SQL_REPL_ENGINE_SUPPORT_FLS_sql_engine_core_shared_loc_Cpu64_1036 and directory INSTALLSHAREDDIR
+2020-01-27 22:50:14 Slp: SLP: MsiExtension.GetDiskCost: Warning: No matched disk size is detected for feature SQL_Replication_CLS_sql_engine_core_shared_loc_Cpu64_1036 and directory SystemDrive
+2020-01-27 22:50:14 Slp: SLP: MsiExtension.GetDiskCost: Warning: No matched disk size is detected for feature SQL_Engine_CLS_sql_engine_core_shared_loc_Cpu64_1040 and directory SystemDrive
+2020-01-27 22:50:14 Slp: SLP: MsiExtension.GetDiskCost: Warning: No matched disk size is detected for feature SQL_DMF_CLS_sql_engine_core_shared_loc_Cpu64_1040 and directory SystemDrive
+2020-01-27 22:50:14 Slp: SLP: MsiExtension.GetDiskCost: Warning: No matched disk size is detected for feature SQL_SLP_BASE_CLS_sql_engine_core_shared_loc_Cpu64_1040 and directory SystemDrive
+2020-01-27 22:50:14 Slp: SLP: MsiExtension.GetDiskCost: Warning: No matched disk size is detected for feature SQL_REPL_ENGINE_SUPPORT_FLS_sql_engine_core_shared_loc_Cpu64_1040 and directory INSTALLSHAREDDIR
+2020-01-27 22:50:14 Slp: SLP: MsiExtension.GetDiskCost: Warning: No matched disk size is detected for feature SQL_Replication_CLS_sql_engine_core_shared_loc_Cpu64_1040 and directory SystemDrive
+2020-01-27 22:50:14 Slp: SLP: MsiExtension.GetDiskCost: Warning: No matched disk size is detected for feature SQL_Engine_CLS_sql_engine_core_shared_loc_Cpu64_1042 and directory SystemDrive
+2020-01-27 22:50:14 Slp: SLP: MsiExtension.GetDiskCost: Warning: No matched disk size is detected for feature SQL_DMF_CLS_sql_engine_core_shared_loc_Cpu64_1042 and directory SystemDrive
+2020-01-27 22:50:14 Slp: SLP: MsiExtension.GetDiskCost: Warning: No matched disk size is detected for feature SQL_SLP_BASE_CLS_sql_engine_core_shared_loc_Cpu64_1042 and directory SystemDrive
+2020-01-27 22:50:14 Slp: SLP: MsiExtension.GetDiskCost: Warning: No matched disk size is detected for feature SQL_REPL_ENGINE_SUPPORT_FLS_sql_engine_core_shared_loc_Cpu64_1042 and directory INSTALLSHAREDDIR
+2020-01-27 22:50:14 Slp: SLP: MsiExtension.GetDiskCost: Warning: No matched disk size is detected for feature SQL_Replication_CLS_sql_engine_core_shared_loc_Cpu64_1042 and directory SystemDrive
+2020-01-27 22:50:14 Slp: SLP: MsiExtension.GetDiskCost: Warning: No matched disk size is detected for feature SQL_Engine_CLS_sql_engine_core_shared_loc_Cpu64_1046 and directory SystemDrive
+2020-01-27 22:50:14 Slp: SLP: MsiExtension.GetDiskCost: Warning: No matched disk size is detected for feature SQL_DMF_CLS_sql_engine_core_shared_loc_Cpu64_1046 and directory SystemDrive
+2020-01-27 22:50:14 Slp: SLP: MsiExtension.GetDiskCost: Warning: No matched disk size is detected for feature SQL_SLP_BASE_CLS_sql_engine_core_shared_loc_Cpu64_1046 and directory SystemDrive
+2020-01-27 22:50:14 Slp: SLP: MsiExtension.GetDiskCost: Warning: No matched disk size is detected for feature SQL_REPL_ENGINE_SUPPORT_FLS_sql_engine_core_shared_loc_Cpu64_1046 and directory INSTALLSHAREDDIR
+2020-01-27 22:50:14 Slp: SLP: MsiExtension.GetDiskCost: Warning: No matched disk size is detected for feature SQL_Replication_CLS_sql_engine_core_shared_loc_Cpu64_1046 and directory SystemDrive
+2020-01-27 22:50:14 Slp: SLP: MsiExtension.GetDiskCost: Warning: No matched disk size is detected for feature SQL_Engine_CLS_sql_engine_core_shared_loc_Cpu64_1049 and directory SystemDrive
+2020-01-27 22:50:14 Slp: SLP: MsiExtension.GetDiskCost: Warning: No matched disk size is detected for feature SQL_DMF_CLS_sql_engine_core_shared_loc_Cpu64_1049 and directory SystemDrive
+2020-01-27 22:50:14 Slp: SLP: MsiExtension.GetDiskCost: Warning: No matched disk size is detected for feature SQL_SLP_BASE_CLS_sql_engine_core_shared_loc_Cpu64_1049 and directory SystemDrive
+2020-01-27 22:50:14 Slp: SLP: MsiExtension.GetDiskCost: Warning: No matched disk size is detected for feature SQL_REPL_ENGINE_SUPPORT_FLS_sql_engine_core_shared_loc_Cpu64_1049 and directory INSTALLSHAREDDIR
+2020-01-27 22:50:14 Slp: SLP: MsiExtension.GetDiskCost: Warning: No matched disk size is detected for feature SQL_Replication_CLS_sql_engine_core_shared_loc_Cpu64_1049 and directory SystemDrive
+2020-01-27 22:50:14 Slp: SLP: MsiExtension.GetDiskCost: Warning: No matched disk size is detected for feature SQL_Engine_CLS_sql_engine_core_shared_loc_Cpu64_2052 and directory SystemDrive
+2020-01-27 22:50:14 Slp: SLP: MsiExtension.GetDiskCost: Warning: No matched disk size is detected for feature SQL_DMF_CLS_sql_engine_core_shared_loc_Cpu64_2052 and directory SystemDrive
+2020-01-27 22:50:14 Slp: SLP: MsiExtension.GetDiskCost: Warning: No matched disk size is detected for feature SQL_SLP_BASE_CLS_sql_engine_core_shared_loc_Cpu64_2052 and directory SystemDrive
+2020-01-27 22:50:14 Slp: SLP: MsiExtension.GetDiskCost: Warning: No matched disk size is detected for feature SQL_REPL_ENGINE_SUPPORT_FLS_sql_engine_core_shared_loc_Cpu64_2052 and directory INSTALLSHAREDDIR
+2020-01-27 22:50:14 Slp: SLP: MsiExtension.GetDiskCost: Warning: No matched disk size is detected for feature SQL_Replication_CLS_sql_engine_core_shared_loc_Cpu64_2052 and directory SystemDrive
+2020-01-27 22:50:14 Slp: SLP: MsiExtension.GetDiskCost: Warning: No matched disk size is detected for feature SQL_Engine_CLS_sql_engine_core_shared_loc_Cpu64_3082 and directory SystemDrive
+2020-01-27 22:50:14 Slp: SLP: MsiExtension.GetDiskCost: Warning: No matched disk size is detected for feature SQL_DMF_CLS_sql_engine_core_shared_loc_Cpu64_3082 and directory SystemDrive
+2020-01-27 22:50:14 Slp: SLP: MsiExtension.GetDiskCost: Warning: No matched disk size is detected for feature SQL_SLP_BASE_CLS_sql_engine_core_shared_loc_Cpu64_3082 and directory SystemDrive
+2020-01-27 22:50:14 Slp: SLP: MsiExtension.GetDiskCost: Warning: No matched disk size is detected for feature SQL_REPL_ENGINE_SUPPORT_FLS_sql_engine_core_shared_loc_Cpu64_3082 and directory INSTALLSHAREDDIR
+2020-01-27 22:50:14 Slp: SLP: MsiExtension.GetDiskCost: Warning: No matched disk size is detected for feature SQL_Replication_CLS_sql_engine_core_shared_loc_Cpu64_3082 and directory SystemDrive
+2020-01-27 22:50:14 Slp: SLP: MsiExtension.GetDiskCost: Warning: No matched disk size is detected for feature SQL_Engine_CLS_sql_engine_core_shared_loc_Cpu64_1053 and directory SystemDrive
+2020-01-27 22:50:14 Slp: SLP: MsiExtension.GetDiskCost: Warning: No matched disk size is detected for feature SQL_DMF_CLS_sql_engine_core_shared_loc_Cpu64_1053 and directory SystemDrive
+2020-01-27 22:50:14 Slp: SLP: MsiExtension.GetDiskCost: Warning: No matched disk size is detected for feature SQL_SLP_BASE_CLS_sql_engine_core_shared_loc_Cpu64_1053 and directory SystemDrive
+2020-01-27 22:50:14 Slp: SLP: MsiExtension.GetDiskCost: Warning: No matched disk size is detected for feature SQL_REPL_ENGINE_SUPPORT_FLS_sql_engine_core_shared_loc_Cpu64_1053 and directory INSTALLSHAREDDIR
+2020-01-27 22:50:14 Slp: SLP: MsiExtension.GetDiskCost: Warning: No matched disk size is detected for feature SQL_Replication_CLS_sql_engine_core_shared_loc_Cpu64_1053 and directory SystemDrive
+2020-01-27 22:50:14 Slp: SLP: MsiExtension.GetDiskCost: Warning: No matched disk size is detected for feature RS_Server_ALS_sql_rs_loc_Cpu64_1028 and directory INSTALLSHAREDDIR
+2020-01-27 22:50:14 Slp: SLP: MsiExtension.GetDiskCost: Warning: No matched disk size is detected for feature RS_Server_ALS_sql_rs_loc_Cpu64_1033 and directory INSTALLSHAREDDIR
+2020-01-27 22:50:14 Slp: SLP: MsiExtension.GetDiskCost: Warning: No matched disk size is detected for feature RS_Server_ALS_sql_rs_loc_Cpu64_1036 and directory INSTALLSHAREDDIR
+2020-01-27 22:50:14 Slp: SLP: MsiExtension.GetDiskCost: Warning: No matched disk size is detected for feature RS_Server_ALS_sql_rs_loc_Cpu64_1040 and directory INSTALLSHAREDDIR
+2020-01-27 22:50:14 Slp: SLP: MsiExtension.GetDiskCost: Warning: No matched disk size is detected for feature RS_Server_ALS_sql_rs_loc_Cpu64_1042 and directory INSTALLSHAREDDIR
+2020-01-27 22:50:14 Slp: SLP: MsiExtension.GetDiskCost: Warning: No matched disk size is detected for feature RS_Server_ALS_sql_rs_loc_Cpu64_1046 and directory INSTALLSHAREDDIR
+2020-01-27 22:50:14 Slp: SLP: MsiExtension.GetDiskCost: Warning: No matched disk size is detected for feature RS_Server_ALS_sql_rs_loc_Cpu64_1049 and directory INSTALLSHAREDDIR
+2020-01-27 22:50:14 Slp: SLP: MsiExtension.GetDiskCost: Warning: No matched disk size is detected for feature RS_Server_ALS_sql_rs_loc_Cpu64_2052 and directory INSTALLSHAREDDIR
+2020-01-27 22:50:14 Slp: SLP: MsiExtension.GetDiskCost: Warning: No matched disk size is detected for feature RS_Server_ALS_sql_rs_loc_Cpu64_3082 and directory INSTALLSHAREDDIR
+2020-01-27 22:50:14 Slp: SLP: MsiExtension.GetDiskCost: Warning: No matched disk size is detected for feature RS_Server_ALS_sql_rs_loc_Cpu64_1053 and directory INSTALLSHAREDDIR
+2020-01-27 22:50:14 Slp: SLP: MsiExtension.GetDiskCost: Warning: No matched disk size is detected for feature RS_Server_ALS_sql_rs_loc_Cpu32_1028 and directory INSTALLSHAREDDIR
+2020-01-27 22:50:14 Slp: SLP: MsiExtension.GetDiskCost: Warning: No matched disk size is detected for feature RS_Server_ALS_sql_rs_loc_Cpu32_1033 and directory INSTALLSHAREDDIR
+2020-01-27 22:50:14 Slp: SLP: MsiExtension.GetDiskCost: Warning: No matched disk size is detected for feature RS_Server_ALS_sql_rs_loc_Cpu32_1036 and directory INSTALLSHAREDDIR
+2020-01-27 22:50:14 Slp: SLP: MsiExtension.GetDiskCost: Warning: No matched disk size is detected for feature RS_Server_ALS_sql_rs_loc_Cpu32_1040 and directory INSTALLSHAREDDIR
+2020-01-27 22:50:14 Slp: SLP: MsiExtension.GetDiskCost: Warning: No matched disk size is detected for feature RS_Server_ALS_sql_rs_loc_Cpu32_1042 and directory INSTALLSHAREDDIR
+2020-01-27 22:50:14 Slp: SLP: MsiExtension.GetDiskCost: Warning: No matched disk size is detected for feature RS_Server_ALS_sql_rs_loc_Cpu32_1046 and directory INSTALLSHAREDDIR
+2020-01-27 22:50:14 Slp: SLP: MsiExtension.GetDiskCost: Warning: No matched disk size is detected for feature RS_Server_ALS_sql_rs_loc_Cpu32_1049 and directory INSTALLSHAREDDIR
+2020-01-27 22:50:14 Slp: SLP: MsiExtension.GetDiskCost: Warning: No matched disk size is detected for feature RS_Server_ALS_sql_rs_loc_Cpu32_2052 and directory INSTALLSHAREDDIR
+2020-01-27 22:50:14 Slp: SLP: MsiExtension.GetDiskCost: Warning: No matched disk size is detected for feature RS_Server_ALS_sql_rs_loc_Cpu32_3082 and directory INSTALLSHAREDDIR
+2020-01-27 22:50:14 Slp: SLP: MsiExtension.GetDiskCost: Warning: No matched disk size is detected for feature RS_Server_ALS_sql_rs_loc_Cpu32_1053 and directory INSTALLSHAREDDIR
+2020-01-27 22:50:14 Slp: SLP: MsiExtension.GetDiskCost: Warning: No matched disk size is detected for feature SDK_FLS_sql_tools_loc_Cpu64_1028 and directory SystemDrive
+2020-01-27 22:50:14 Slp: SLP: MsiExtension.GetDiskCost: Warning: No matched disk size is detected for feature SDK_FLS_sql_tools_loc_Cpu64_1033 and directory SystemDrive
+2020-01-27 22:50:14 Slp: SLP: MsiExtension.GetDiskCost: Warning: No matched disk size is detected for feature SDK_FLS_sql_tools_loc_Cpu64_1036 and directory SystemDrive
+2020-01-27 22:50:14 Slp: SLP: MsiExtension.GetDiskCost: Warning: No matched disk size is detected for feature SDK_FLS_sql_tools_loc_Cpu64_1040 and directory SystemDrive
+2020-01-27 22:50:14 Slp: SLP: MsiExtension.GetDiskCost: Warning: No matched disk size is detected for feature SDK_FLS_sql_tools_loc_Cpu64_1042 and directory SystemDrive
+2020-01-27 22:50:14 Slp: SLP: MsiExtension.GetDiskCost: Warning: No matched disk size is detected for feature SDK_FLS_sql_tools_loc_Cpu64_1046 and directory SystemDrive
+2020-01-27 22:50:14 Slp: SLP: MsiExtension.GetDiskCost: Warning: No matched disk size is detected for feature SDK_FLS_sql_tools_loc_Cpu64_1049 and directory SystemDrive
+2020-01-27 22:50:14 Slp: SLP: MsiExtension.GetDiskCost: Warning: No matched disk size is detected for feature SDK_FLS_sql_tools_loc_Cpu64_2052 and directory SystemDrive
+2020-01-27 22:50:14 Slp: SLP: MsiExtension.GetDiskCost: Warning: No matched disk size is detected for feature SDK_FLS_sql_tools_loc_Cpu64_3082 and directory SystemDrive
+2020-01-27 22:50:14 Slp: SLP: MsiExtension.GetDiskCost: Warning: No matched disk size is detected for feature SDK_FLS_sql_tools_loc_Cpu64_1053 and directory SystemDrive
+2020-01-27 22:50:14 Slp: SLP: MsiExtension.GetDiskCost: Warning: No matched disk size is detected for feature ALL_VstaRedistWithLangPack_Cpu32_1028 and directory SystemDrive
+2020-01-27 22:50:14 Slp: SLP: MsiExtension.GetDiskCost: Warning: No matched disk size is detected for feature ALL_VstaRedistWithLangPack_Cpu32_1033 and directory SystemDrive
+2020-01-27 22:50:14 Slp: SLP: MsiExtension.GetDiskCost: Warning: No matched disk size is detected for feature ALL_VstaRedistWithLangPack_Cpu32_1036 and directory SystemDrive
+2020-01-27 22:50:14 Slp: SLP: MsiExtension.GetDiskCost: Warning: No matched disk size is detected for feature ALL_VstaRedistWithLangPack_Cpu32_1040 and directory SystemDrive
+2020-01-27 22:50:14 Slp: SLP: MsiExtension.GetDiskCost: Warning: No matched disk size is detected for feature ALL_VstaRedistWithLangPack_Cpu32_1042 and directory SystemDrive
+2020-01-27 22:50:14 Slp: SLP: MsiExtension.GetDiskCost: Warning: No matched disk size is detected for feature ALL_VstaRedistWithLangPack_Cpu32_1046 and directory SystemDrive
+2020-01-27 22:50:14 Slp: SLP: MsiExtension.GetDiskCost: Warning: No matched disk size is detected for feature ALL_VstaRedistWithLangPack_Cpu32_1049 and directory SystemDrive
+2020-01-27 22:50:14 Slp: SLP: MsiExtension.GetDiskCost: Warning: No matched disk size is detected for feature ALL_VstaRedistWithLangPack_Cpu32_2052 and directory SystemDrive
+2020-01-27 22:50:14 Slp: SLP: MsiExtension.GetDiskCost: Warning: No matched disk size is detected for feature ALL_VstaRedistWithLangPack_Cpu32_3082 and directory SystemDrive
+2020-01-27 22:50:14 Slp: SLP: MsiExtension.GetDiskCost: Warning: No matched disk size is detected for feature ALL_VstaRedistWithLangPack_Cpu32_1053 and directory SystemDrive
+2020-01-27 22:50:15 Slp: Sco: Attempting to create base registry key HKEY_LOCAL_MACHINE, machine 
+2020-01-27 22:50:15 Slp: Sco: Attempting to open registry subkey Software\Microsoft\Microsoft SQL Server\100\Bootstrap
+2020-01-27 22:50:15 Slp: Sco: Attempting to get registry value BootstrapDir
+2020-01-27 22:50:15 Slp: Completed Action: InitializeMsiExtension, returned True
+2020-01-27 22:50:15 Slp: ----------------------------------------------------------------------
+2020-01-27 22:50:15 Slp: Running Action: InitializeConfigAction
+2020-01-27 22:50:15 Slp: Completed Action: InitializeConfigAction, returned True
+2020-01-27 22:50:15 Slp: ----------------------------------------------------------------------
+2020-01-27 22:50:15 Slp: Running Action: RunDiscoveryAction
+2020-01-27 22:50:15 Slp: Running discovery on local machine
+2020-01-27 22:50:15 Slp: Discovery on local machine is complete
+2020-01-27 22:50:15 Slp: Completed Action: RunDiscoveryAction, returned True
+2020-01-27 22:50:16 Slp: ----------------------------------------------------------------------
+2020-01-27 22:50:16 Slp: Running Action: SqlDiscoveryReport
+2020-01-27 22:50:16 Slp: Completed Action: SqlDiscoveryReport, returned True
+2020-01-27 22:50:16 Slp: Received request to add the following file to Watson reporting: C:\Users\Noi\AppData\Local\Temp\tmpACF1.tmp
+2020-01-27 22:50:16 Slp: The following is an exception stack listing the exceptions in outermost to innermost order
+2020-01-27 22:50:16 Slp: Inner exceptions are being indented
+2020-01-27 22:50:16 Slp: 
+2020-01-27 22:50:16 Slp: Exception type: System.InvalidOperationException
+2020-01-27 22:50:16 Slp:     Message: 
+2020-01-27 22:50:16 Slp:         Invoke or BeginInvoke cannot be called on a control until the window handle has been created.
+2020-01-27 22:50:16 Slp:     Stack: 
+2020-01-27 22:50:16 Slp:         at System.Windows.Forms.Control.WaitForWaitHandle(WaitHandle waitHandle)
+2020-01-27 22:50:16 Slp:         at System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+2020-01-27 22:50:16 Slp:         at System.Windows.Forms.Control.Invoke(Delegate method, Object[] args)
+2020-01-27 22:50:16 Slp:         at Microsoft.SqlServer.Configuration.UIExtension.WaitScreen.Close()
+2020-01-27 22:50:16 Slp:         at Microsoft.SqlServer.Chainer.Setup.Setup.Run()
+2020-01-27 22:50:16 Slp:         at Microsoft.SqlServer.Chainer.Setup.Setup.Start()
+2020-01-27 22:50:16 Slp:         at Microsoft.SqlServer.Chainer.Setup.Setup.Main()
+2020-01-27 22:50:18 Slp: The following exception occurred during Watson failure processing: Invoke or BeginInvoke cannot be called on a control until the window handle has been created.
+2020-01-27 22:50:18 Slp: 
+2020-01-27 22:50:18 Slp: ----------------------------------------------------------------------
+2020-01-27 22:50:18 Slp: 
+2020-01-27 22:50:18 Slp: Error result: 2064843076
+2020-01-27 22:50:18 Slp: Result facility code: 787
+2020-01-27 22:50:18 Slp: Result error code: 324

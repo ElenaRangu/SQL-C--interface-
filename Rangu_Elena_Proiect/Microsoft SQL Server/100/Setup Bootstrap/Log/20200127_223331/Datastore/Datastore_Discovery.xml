@@ -1,0 +1,1 @@
+<SqlDiscoveryData><Machine Urn="Machine[@ID='WIN-AT32TJLFTU8']" ID="WIN-AT32TJLFTU8" Name="WIN-AT32TJLFTU8" OsVersion="6.1.7601.65536" OsServicePack="Service Pack 1" Architecture="Win32NT" IsCluster="False" IsPendingReboot="False"><Product ID="SQL2000" Name="Microsoft SQL Server 2000" Version="8" /></Machine></SqlDiscoveryData>
